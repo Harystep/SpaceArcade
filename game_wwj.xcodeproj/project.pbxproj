@@ -1,0 +1,2283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C32CAEA2B0B3F6E00BB808C /* ZCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32CAE82B0B3F6D00BB808C /* ZCNetwork.m */; };
+		4C32CAED2B0B404100BB808C /* ZCSaveUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32CAEC2B0B404100BB808C /* ZCSaveUserData.m */; };
+		4C32CAF02B0B41BC00BB808C /* ZCUserGameService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32CAEF2B0B41BC00BB808C /* ZCUserGameService.m */; };
+		4C32CAF32B0B4A9B00BB808C /* YDSocketBackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32CAF22B0B4A9B00BB808C /* YDSocketBackData.m */; };
+		4C66A2CC2B1DD213007A3513 /* YDSpaceMetalImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66A2CB2B1DD213007A3513 /* YDSpaceMetalImage.m */; };
+		4C66A2CF2B1F0B7C007A3513 /* YDSpaceAnimalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66A2CE2B1F0B7C007A3513 /* YDSpaceAnimalView.m */; };
+		4C66A2D22B1F0CA6007A3513 /* UIView+Positon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66A2D02B1F0CA6007A3513 /* UIView+Positon.m */; };
+		4C8474A12A5698EF008E9767 /* SDRankUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8474A02A5698EF008E9767 /* SDRankUserInfoView.swift */; };
+		4C8474A32A57F124008E9767 /* SDRechargeAlertMoneyUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8474A22A57F124008E9767 /* SDRechargeAlertMoneyUnitView.swift */; };
+		4C8A95E62B06F69A0014A339 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A95E52B06F69A0014A339 /* UIResponder+Router.m */; };
+		4C8A95E92B06F9E30014A339 /* HZPushGameOpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A95E82B06F9E30014A339 /* HZPushGameOpView.m */; };
+		4C8A95F02B0735F30014A339 /* HZPushPullVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A95EF2B0735F30014A339 /* HZPushPullVideoView.m */; };
+		4C8A95F32B074A710014A339 /* YDSocketConnectService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A95F22B074A710014A339 /* YDSocketConnectService.m */; };
+		4C8A95F72B07622B0014A339 /* YDPushPullStreamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A95F62B07622B0014A339 /* YDPushPullStreamView.m */; };
+		4CA5DA362B05B72400F33916 /* HZPushGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5DA352B05B72400F33916 /* HZPushGameController.m */; };
+		4CA5DA392B05BDB000F33916 /* HZPushUserProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5DA382B05BDB000F33916 /* HZPushUserProfileView.m */; };
+		4CA5DA3F2B05C75B00F33916 /* HZUserWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5DA3E2B05C75B00F33916 /* HZUserWalletView.m */; };
+		4CA5DA422B060DC400F33916 /* HZPushOpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5DA412B060DC400F33916 /* HZPushOpView.m */; };
+		4CA5DA452B06102E00F33916 /* HZSimpleBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5DA442B06102E00F33916 /* HZSimpleBtnView.m */; };
+		4CA5DA482B06181D00F33916 /* HZPushScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5DA472B06181D00F33916 /* HZPushScoreView.m */; };
+		4CC988892B14339B00CFC4B7 /* YDSimpleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988882B14339B00CFC4B7 /* YDSimpleBaseView.m */; };
+		4CC9888C2B143FF700CFC4B7 /* YDPushRechargeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9888B2B143FF700CFC4B7 /* YDPushRechargeAlertView.m */; };
+		4CC9888F2B14473400CFC4B7 /* YDPushRechargePackCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9888E2B14473400CFC4B7 /* YDPushRechargePackCardCell.m */; };
+		4CC988922B14474A00CFC4B7 /* YDPushRechargeItemCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988912B14474A00CFC4B7 /* YDPushRechargeItemCardCell.m */; };
+		4CC988952B1483A900CFC4B7 /* YDPushExchangeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988942B1483A900CFC4B7 /* YDPushExchangeAlertView.m */; };
+		4CC988982B1483F900CFC4B7 /* YDPushExchangeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988972B1483F900CFC4B7 /* YDPushExchangeItemCell.m */; };
+		4CC9889C2B157D8600CFC4B7 /* YDPushRechargeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9889B2B157D8600CFC4B7 /* YDPushRechargeModel.m */; };
+		4CC9889F2B157D9500CFC4B7 /* YDPushExchangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9889E2B157D9500CFC4B7 /* YDPushExchangeModel.m */; };
+		4CC988A42B159A8C00CFC4B7 /* YDPushWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988A32B159A8C00CFC4B7 /* YDPushWalletView.m */; };
+		4CC988A72B15BFB100CFC4B7 /* YDExchangeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988A62B15BFB100CFC4B7 /* YDExchangeAlertView.m */; };
+		4CC988AA2B15C98C00CFC4B7 /* YDExchangeSucView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988A92B15C98C00CFC4B7 /* YDExchangeSucView.m */; };
+		4CC988AD2B15D19600CFC4B7 /* YDApplePayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988AC2B15D19600CFC4B7 /* YDApplePayModule.m */; };
+		4CC988B02B15D76000CFC4B7 /* YDRechaegeFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988AF2B15D76000CFC4B7 /* YDRechaegeFailView.m */; };
+		4CC988B72B15E16A00CFC4B7 /* YDPushOffLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988B62B15E16A00CFC4B7 /* YDPushOffLineView.m */; };
+		4CC988B92B15EE3B00CFC4B7 /* voice_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CC988B82B15EE3B00CFC4B7 /* voice_back.mp3 */; };
+		4CC988BE2B16DDF600CFC4B7 /* YDScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988BD2B16DDF600CFC4B7 /* YDScreenController.swift */; };
+		4CC988C52B17225700CFC4B7 /* YDTaskCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988C42B17225700CFC4B7 /* YDTaskCenterController.m */; };
+		4CC988C82B17247700CFC4B7 /* YDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988C72B17247700CFC4B7 /* YDBaseViewController.m */; };
+		4CC988CB2B172F6600CFC4B7 /* YDPushTimeOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC988CA2B172F6600CFC4B7 /* YDPushTimeOutView.m */; };
+		4CC9891B2B18238B00CFC4B7 /* YDSpaceCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9891A2B18238B00CFC4B7 /* YDSpaceCenterController.m */; };
+		4CC989212B18263900CFC4B7 /* YDSpaceSimpleStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989202B18263900CFC4B7 /* YDSpaceSimpleStarView.m */; };
+		4CC9892B2B18358300CFC4B7 /* YDSpaceCenterStarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9892A2B18358300CFC4B7 /* YDSpaceCenterStarCell.m */; };
+		4CC9892E2B18374E00CFC4B7 /* YDSpaceStarRoomItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9892D2B18374E00CFC4B7 /* YDSpaceStarRoomItemCell.m */; };
+		4CC989312B183E1600CFC4B7 /* YDSpaceSideLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989302B183E1600CFC4B7 /* YDSpaceSideLeftView.m */; };
+		4CC989342B185A6700CFC4B7 /* YDSpaceUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989332B185A6700CFC4B7 /* YDSpaceUserInfoView.m */; };
+		4CC989372B185BD700CFC4B7 /* YDHelpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989362B185BD700CFC4B7 /* YDHelpTools.m */; };
+		4CC9893A2B185FD700CFC4B7 /* YDSpaceUserWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989392B185FD700CFC4B7 /* YDSpaceUserWalletView.m */; };
+		4CC9893E2B18D97E00CFC4B7 /* JsonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9893D2B18D97E00CFC4B7 /* JsonUtil.swift */; };
+		4CC989402B18D9AB00CFC4B7 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9893F2B18D9AB00CFC4B7 /* BaseModel.swift */; };
+		4CC989432B19701E00CFC4B7 /* YDPushAlertCoinNoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989422B19701E00CFC4B7 /* YDPushAlertCoinNoneView.m */; };
+		4CC989462B197BD000CFC4B7 /* YDSpaceWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989452B197BD000CFC4B7 /* YDSpaceWorkController.m */; };
+		4CC9894C2B197E6000CFC4B7 /* YDSpaceRewardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9894B2B197E6000CFC4B7 /* YDSpaceRewardController.m */; };
+		4CC9894F2B19AF6500CFC4B7 /* YDSpaceWorkLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9894E2B19AF6500CFC4B7 /* YDSpaceWorkLevelView.m */; };
+		4CC989522B19B8BF00CFC4B7 /* YDSpaceWorkItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989512B19B8BF00CFC4B7 /* YDSpaceWorkItemCell.m */; };
+		4CC989552B19DBB100CFC4B7 /* YDSpaceRoomListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC989542B19DBB100CFC4B7 /* YDSpaceRoomListModel.m */; };
+		B6A1CB9B3E73F78D2DB67886 /* Pods_game_wwj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE20EEC03D4696FEAF11D1C9 /* Pods_game_wwj.framework */; };
+		D800EC452A33F22000DBD97D /* SPGameLogDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800EC442A33F22000DBD97D /* SPGameLogDetailViewModel.swift */; };
+		D800EC472A33F25A00DBD97D /* SPGameLogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800EC462A33F25A00DBD97D /* SPGameLogDetailViewController.swift */; };
+		D80369B32A30A33800163281 /* SPSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80369B22A30A33800163281 /* SPSettingViewController.swift */; };
+		D80369B52A30A41E00163281 /* SPSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80369B42A30A41E00163281 /* SPSettingViewModel.swift */; };
+		D80369B72A30AB4400163281 /* SPSettingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80369B62A30AB4400163281 /* SPSettingCoordinator.swift */; };
+		D8043AF22A21D13900B9D231 /* SPShopCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043AF12A21D13900B9D231 /* SPShopCoordinator.swift */; };
+		D8043AF42A21D14F00B9D231 /* SDShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043AF32A21D14F00B9D231 /* SDShopViewController.swift */; };
+		D8043AF62A21D16600B9D231 /* SDShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043AF52A21D16600B9D231 /* SDShopViewModel.swift */; };
+		D8043AFC2A21D95700B9D231 /* SPExchangeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043AFB2A21D95700B9D231 /* SPExchangeCoordinator.swift */; };
+		D8043AFE2A21D97600B9D231 /* SPExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043AFD2A21D97600B9D231 /* SPExchangeViewModel.swift */; };
+		D8043B002A21D99A00B9D231 /* SPExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043AFF2A21D99A00B9D231 /* SPExchangeViewController.swift */; };
+		D8043B0C2A22EA6200B9D231 /* SPCustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043B0B2A22EA6200B9D231 /* SPCustomTabbar.swift */; };
+		D8043B0E2A22EAD600B9D231 /* SPTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043B0D2A22EAD600B9D231 /* SPTabbarViewController.swift */; };
+		D8043B102A23805400B9D231 /* SPTabbarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8043B0F2A23805400B9D231 /* SPTabbarItemView.swift */; };
+		D807BDE82A66D3E4007D2AA8 /* SDAppleOrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807BDE72A66D3E4007D2AA8 /* SDAppleOrderData.swift */; };
+		D80DAC292A3D347F001BC817 /* SPPayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC282A3D347F001BC817 /* SPPayWebViewController.swift */; };
+		D80DAC302A3D5072001BC817 /* SPExchangeGoldWithDiamondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC2F2A3D5072001BC817 /* SPExchangeGoldWithDiamondView.swift */; };
+		D80DAC322A3D5E3D001BC817 /* SPExchangeGoldWithPointData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC312A3D5E3D001BC817 /* SPExchangeGoldWithPointData.swift */; };
+		D80DAC342A3D605C001BC817 /* SPExchangeGoldWithPointItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC332A3D605C001BC817 /* SPExchangeGoldWithPointItemViewModel.swift */; };
+		D80DAC362A3D6079001BC817 /* SPExchangeGoldWithPointItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC352A3D6079001BC817 /* SPExchangeGoldWithPointItemCollectionViewCell.swift */; };
+		D80DAC382A3D7AB8001BC817 /* SDExchangeGlodSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC372A3D7AB8001BC817 /* SDExchangeGlodSectionHeaderView.swift */; };
+		D80DAC3A2A3DE5F7001BC817 /* SDExchangeGoldWithPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC392A3DE5F7001BC817 /* SDExchangeGoldWithPointViewController.swift */; };
+		D80DAC3C2A3DF0DD001BC817 /* SDExchangeGoldWithPointSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC3B2A3DF0DD001BC817 /* SDExchangeGoldWithPointSuccessViewController.swift */; };
+		D80DAC3E2A3DF512001BC817 /* SDMemberMoneyLogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC3D2A3DF512001BC817 /* SDMemberMoneyLogData.swift */; };
+		D80DAC422A3E0CB1001BC817 /* SDSummaryRankPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC412A3E0CB1001BC817 /* SDSummaryRankPageData.swift */; };
+		D80DAC452A3E1462001BC817 /* SDRankSortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC442A3E1462001BC817 /* SDRankSortView.swift */; };
+		D80DAC472A3E1667001BC817 /* SDRankSortUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC462A3E1667001BC817 /* SDRankSortUserInfoView.swift */; };
+		D80DAC492A3E1A3C001BC817 /* SDRankSortItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC482A3E1A3B001BC817 /* SDRankSortItemViewModel.swift */; };
+		D80DAC4B2A3E1A48001BC817 /* SDRankSortItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC4A2A3E1A48001BC817 /* SDRankSortItemTableViewCell.swift */; };
+		D80DAC4E2A3EB131001BC817 /* SDSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC4D2A3EB131001BC817 /* SDSignViewController.swift */; };
+		D80DAC502A3EB512001BC817 /* SDSignListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC4F2A3EB512001BC817 /* SDSignListData.swift */; };
+		D80DAC522A3EEFFB001BC817 /* SDSignUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC512A3EEFFB001BC817 /* SDSignUnitView.swift */; };
+		D80DAC572A3F046D001BC817 /* SDGamePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC562A3F046D001BC817 /* SDGamePageViewController.swift */; };
+		D80DAC592A3F047D001BC817 /* SDGamePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC582A3F047D001BC817 /* SDGamePageViewModel.swift */; };
+		D80DAC5C2A3F33B3001BC817 /* SDGameRoomItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC5B2A3F33B3001BC817 /* SDGameRoomItemViewModel.swift */; };
+		D80DAC5E2A3F33C0001BC817 /* SDGameRoomItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAC5D2A3F33C0001BC817 /* SDGameRoomItemCollectionViewCell.swift */; };
+		D8193F342A43E4A500FB0DCD /* SDRoomTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F332A43E4A500FB0DCD /* SDRoomTagView.swift */; };
+		D8193F372A43EA1F00FB0DCD /* SDInvitedCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F362A43EA1F00FB0DCD /* SDInvitedCodeViewController.swift */; };
+		D8193F392A43EA3200FB0DCD /* SDInvitedCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F382A43EA3200FB0DCD /* SDInvitedCodeViewModel.swift */; };
+		D8193F3B2A444A4C00FB0DCD /* SDInputInviteCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F3A2A444A4C00FB0DCD /* SDInputInviteCodeViewController.swift */; };
+		D8193F3F2A44612300FB0DCD /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F3E2A44612300FB0DCD /* SDWebViewController.swift */; };
+		D8193F422A4474D400FB0DCD /* SDInputNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F412A4474D400FB0DCD /* SDInputNameViewController.swift */; };
+		D8193F452A44A33C00FB0DCD /* SDGuildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F442A44A33C00FB0DCD /* SDGuildViewController.swift */; };
+		D8193F472A44A34B00FB0DCD /* SDGuildViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F462A44A34B00FB0DCD /* SDGuildViewModel.swift */; };
+		D8193F492A44A5C200FB0DCD /* SDGameStrategyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F482A44A5C200FB0DCD /* SDGameStrategyData.swift */; };
+		D8193F4C2A44ADF600FB0DCD /* SDGameGuidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F4B2A44ADF600FB0DCD /* SDGameGuidViewModel.swift */; };
+		D8193F4E2A44AE0600FB0DCD /* SDGameGuidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F4D2A44AE0600FB0DCD /* SDGameGuidTableViewCell.swift */; };
+		D8193F502A44B97B00FB0DCD /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F4F2A44B97B00FB0DCD /* MediaManager.swift */; };
+		D8193F542A44C94300FB0DCD /* SDAlertShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8193F532A44C94300FB0DCD /* SDAlertShopViewController.swift */; };
+		D8276CA02A93B01F0057B591 /* SDGameRuleModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8276C9F2A93B01F0057B591 /* SDGameRuleModalData.swift */; };
+		D8276CA22A93BD050057B591 /* SDGameTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8276CA12A93BD050057B591 /* SDGameTagView.swift */; };
+		D83738F52A28C3A7009299D6 /* SDGameFuncGuidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83738F42A28C3A7009299D6 /* SDGameFuncGuidButton.swift */; };
+		D8463DA32A8E732E0001B061 /* SDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8463DA22A8E732E0001B061 /* SDButton.swift */; };
+		D85848CB2A40838100644FE1 /* SDHomeGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85848CA2A40838100644FE1 /* SDHomeGroupItem.swift */; };
+		D85848CD2A40979400644FE1 /* SDGameRoomStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85848CC2A40979400644FE1 /* SDGameRoomStatusView.swift */; };
+		D863886B2A682E5200D057F1 /* SDInGameOtherFucButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863886A2A682E5200D057F1 /* SDInGameOtherFucButton.swift */; };
+		D87A28F72A1F805900DBC1B5 /* SDRedCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28B82A1F805900DBC1B5 /* SDRedCloseView.swift */; };
+		D87A28F82A1F805900DBC1B5 /* SDEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28B92A1F805900DBC1B5 /* SDEmptyView.swift */; };
+		D87A28F92A1F805900DBC1B5 /* SDAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28BA2A1F805900DBC1B5 /* SDAvatarView.swift */; };
+		D87A28FA2A1F805900DBC1B5 /* SDImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28BB2A1F805900DBC1B5 /* SDImageButton.swift */; };
+		D87A28FB2A1F805900DBC1B5 /* SDVerticalImageAndTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28BC2A1F805900DBC1B5 /* SDVerticalImageAndTitleButton.swift */; };
+		D87A28FC2A1F805900DBC1B5 /* SDPullFlvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28BD2A1F805900DBC1B5 /* SDPullFlvView.swift */; };
+		D87A28FD2A1F805900DBC1B5 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28BF2A1F805900DBC1B5 /* BannerView.swift */; };
+		D87A28FE2A1F805900DBC1B5 /* LoadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28C02A1F805900DBC1B5 /* LoadImageView.swift */; };
+		D87A28FF2A1F805900DBC1B5 /* BannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D87A28C12A1F805900DBC1B5 /* BannerView.bundle */; };
+		D87A29002A1F805900DBC1B5 /* BannerVideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28C22A1F805900DBC1B5 /* BannerVideoViewCell.swift */; };
+		D87A29012A1F805900DBC1B5 /* BannerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28C32A1F805900DBC1B5 /* BannerTool.swift */; };
+		D87A29022A1F805900DBC1B5 /* BannerViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28C42A1F805900DBC1B5 /* BannerViewFlowLayout.swift */; };
+		D87A29032A1F805900DBC1B5 /* ZYPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28C72A1F805900DBC1B5 /* ZYPlayer.swift */; };
+		D87A29042A1F805900DBC1B5 /* ZYPlayerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28C82A1F805900DBC1B5 /* ZYPlayerTool.swift */; };
+		D87A29052A1F805900DBC1B5 /* PlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D87A28C92A1F805900DBC1B5 /* PlayerView.bundle */; };
+		D87A29062A1F805900DBC1B5 /* ZYPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28CA2A1F805900DBC1B5 /* ZYPlayerView.swift */; };
+		D87A29072A1F805900DBC1B5 /* BannerBaseDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28CC2A1F805900DBC1B5 /* BannerBaseDataInfo.swift */; };
+		D87A29082A1F805900DBC1B5 /* BannerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28CD2A1F805900DBC1B5 /* BannerViewCell.swift */; };
+		D87A29092A1F805900DBC1B5 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28CF2A1F805900DBC1B5 /* PageControl.swift */; };
+		D87A290A2A1F805900DBC1B5 /* CyclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28D02A1F805900DBC1B5 /* CyclesView.swift */; };
+		D87A290C2A1F805900DBC1B5 /* SDHomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28D32A1F805900DBC1B5 /* SDHomeService.swift */; };
+		D87A290D2A1F805900DBC1B5 /* SDBaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28D42A1F805900DBC1B5 /* SDBaseRouter.swift */; };
+		D87A290E2A1F805900DBC1B5 /* SDUserInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28D52A1F805900DBC1B5 /* SDUserInfoService.swift */; };
+		D87A29102A1F805900DBC1B5 /* UserAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28D82A1F805900DBC1B5 /* UserAPIRouter.swift */; };
+		D87A29112A1F805900DBC1B5 /* HomeAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28D92A1F805900DBC1B5 /* HomeAPIRouter.swift */; };
+		D87A29122A1F805900DBC1B5 /* SDRechargeAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28DA2A1F805900DBC1B5 /* SDRechargeAPIRouter.swift */; };
+		D87A29132A1F805900DBC1B5 /* SDUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28DB2A1F805900DBC1B5 /* SDUserManager.swift */; };
+		D87A29142A1F805900DBC1B5 /* SDRechargeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28DC2A1F805900DBC1B5 /* SDRechargeService.swift */; };
+		D87A29152A1F805900DBC1B5 /* SDCustomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28DD2A1F805900DBC1B5 /* SDCustomService.swift */; };
+		D87A29162A1F805900DBC1B5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28DF2A1F805900DBC1B5 /* APIClient.swift */; };
+		D87A29182A1F805900DBC1B5 /* SDApplePayClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28E12A1F805900DBC1B5 /* SDApplePayClient.swift */; };
+		D87A29192A1F805900DBC1B5 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28E32A1F805900DBC1B5 /* CoordinatorType.swift */; };
+		D87A291A2A1F805900DBC1B5 /* ViewModelAttaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28E42A1F805900DBC1B5 /* ViewModelAttaching.swift */; };
+		D87A291B2A1F805900DBC1B5 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28E52A1F805900DBC1B5 /* ViewModelType.swift */; };
+		D87A291C2A1F805900DBC1B5 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28E72A1F805900DBC1B5 /* Observable+Ext.swift */; };
+		D87A291D2A1F805900DBC1B5 /* Byte+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28E82A1F805900DBC1B5 /* Byte+Ext.swift */; };
+		D87A291E2A1F805900DBC1B5 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28E92A1F805900DBC1B5 /* String+Ext.swift */; };
+		D87A29202A1F805900DBC1B5 /* AppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28ED2A1F805900DBC1B5 /* AppDefine.swift */; };
+		D87A29212A1F805900DBC1B5 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28EE2A1F805900DBC1B5 /* Reusable.swift */; };
+		D87A29222A1F805900DBC1B5 /* SDPortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28EF2A1F805900DBC1B5 /* SDPortraitViewController.swift */; };
+		D87A29232A1F805900DBC1B5 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28F02A1F805900DBC1B5 /* ErrorTracker.swift */; };
+		D87A29242A1F805900DBC1B5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28F12A1F805900DBC1B5 /* ActivityIndicator.swift */; };
+		D87A29252A1F805900DBC1B5 /* SDTabbarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28F22A1F805900DBC1B5 /* SDTabbarViewDelegate.swift */; };
+		D87A29262A1F805900DBC1B5 /* SDBaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28F32A1F805900DBC1B5 /* SDBaseCoordinator.swift */; };
+		D87A29272A1F805900DBC1B5 /* SDCollectionItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28F42A1F805900DBC1B5 /* SDCollectionItemType.swift */; };
+		D87A29282A1F805900DBC1B5 /* SDCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28F52A1F805900DBC1B5 /* SDCollectionViewModel.swift */; };
+		D87A29292A1F805900DBC1B5 /* SDTabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A28F62A1F805900DBC1B5 /* SDTabbarCoordinator.swift */; };
+		D87A29372A1F84E700DBC1B5 /* SDGameRoomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A292D2A1F84E700DBC1B5 /* SDGameRoomData.swift */; };
+		D87A29382A1F84E700DBC1B5 /* SDUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A292E2A1F84E700DBC1B5 /* SDUser.swift */; };
+		D87A29392A1F84E700DBC1B5 /* SDChargeTypeInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A292F2A1F84E700DBC1B5 /* SDChargeTypeInfoData.swift */; };
+		D87A293A2A1F84E700DBC1B5 /* SDAgreementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29302A1F84E700DBC1B5 /* SDAgreementData.swift */; };
+		D87A293B2A1F84E700DBC1B5 /* SDDollLogPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29312A1F84E700DBC1B5 /* SDDollLogPageData.swift */; };
+		D87A293C2A1F84E700DBC1B5 /* SDGameLiveRoomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29322A1F84E700DBC1B5 /* SDGameLiveRoomData.swift */; };
+		D87A293D2A1F84E700DBC1B5 /* SDAppealDollPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29332A1F84E700DBC1B5 /* SDAppealDollPageData.swift */; };
+		D87A293E2A1F84E700DBC1B5 /* SDDollLogDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29342A1F84E700DBC1B5 /* SDDollLogDetailData.swift */; };
+		D87A293F2A1F84E700DBC1B5 /* SDBannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29352A1F84E700DBC1B5 /* SDBannerData.swift */; };
+		D87A29402A1F84E700DBC1B5 /* SDResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29362A1F84E700DBC1B5 /* SDResponse.swift */; };
+		D87A29432A1F853B00DBC1B5 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29412A1F853B00DBC1B5 /* AppDependency.swift */; };
+		D87A29442A1F853B00DBC1B5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29422A1F853B00DBC1B5 /* AppCoordinator.swift */; };
+		D87A294B2A1F88D800DBC1B5 /* SDHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A294A2A1F88D800DBC1B5 /* SDHomeCoordinator.swift */; };
+		D87A29512A1F903600DBC1B5 /* SDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29502A1F903500DBC1B5 /* SDHomeViewController.swift */; };
+		D87A29532A1F905600DBC1B5 /* SDHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A29522A1F905600DBC1B5 /* SDHomeViewModel.swift */; };
+		D88E1ACA2A49DFF500BC8A9F /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88E1AC92A49DFF500BC8A9F /* Network.framework */; };
+		D89B1B5F2A28AE27003C62FB /* ZhenyanGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D89B1B5E2A28AE27003C62FB /* ZhenyanGB.ttf */; };
+		D89B1B612A28B3AF003C62FB /* UIFont+Zhenyan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B1B602A28B3AF003C62FB /* UIFont+Zhenyan.swift */; };
+		D89B1B632A28BF0E003C62FB /* SDHomeGameContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B1B622A28BF0E003C62FB /* SDHomeGameContentView.swift */; };
+		D8BBAC032A8D0F1E00FFF1A2 /* SDSimpleResultAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BBAC022A8D0F1E00FFF1A2 /* SDSimpleResultAlertViewController.swift */; };
+		D8BC96A82A69502000C0F4E1 /* SDGameInFuncListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC96A72A69502000C0F4E1 /* SDGameInFuncListView.swift */; };
+		D8CF5CB22A1FAF7000BF487A /* SDMineCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF5CB12A1FAF7000BF487A /* SDMineCoordinator.swift */; };
+		D8CF5CB42A1FAF8E00BF487A /* SDMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF5CB32A1FAF8E00BF487A /* SDMineViewController.swift */; };
+		D8CF5CB62A1FAFBC00BF487A /* SDMineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF5CB52A1FAFBC00BF487A /* SDMineViewModel.swift */; };
+		D8CF5CB82A1FB12500BF487A /* SDRankCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF5CB72A1FB12500BF487A /* SDRankCoordinator.swift */; };
+		D8CF5CBA2A1FB14A00BF487A /* SDRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF5CB92A1FB14A00BF487A /* SDRankViewController.swift */; };
+		D8CF5CBC2A1FB15A00BF487A /* SDRankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF5CBB2A1FB15A00BF487A /* SDRankViewModel.swift */; };
+		D8CF84B82A2F4C980006EC32 /* SPAuthenticationMineCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF84B72A2F4C980006EC32 /* SPAuthenticationMineCellModel.swift */; };
+		D8CF84BB2A2F55410006EC32 /* SDAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF84BA2A2F55410006EC32 /* SDAuthenticationViewController.swift */; };
+		D8CF84BD2A2F55690006EC32 /* SDAuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CF84BC2A2F55690006EC32 /* SDAuthenticationViewModel.swift */; };
+		D8CFCC442A2F8CEA009B6579 /* SDGameLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFCC432A2F8CEA009B6579 /* SDGameLogViewController.swift */; };
+		D8CFCC462A2F8D00009B6579 /* SDGameLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFCC452A2F8D00009B6579 /* SDGameLogViewModel.swift */; };
+		D8D2DB242A28F1D200A6947C /* SDBannerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2DB232A28F1D200A6947C /* SDBannerDataModel.swift */; };
+		D8D365522A3A05B300E7AC34 /* SPRechargeItemForCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D365512A3A05B300E7AC34 /* SPRechargeItemForCardCollectionViewCell.swift */; };
+		D8D3CDB22A2A2D640080A743 /* SDLoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDB12A2A2D640080A743 /* SDLoginCoordinator.swift */; };
+		D8D3CDB42A2A2D720080A743 /* SDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDB32A2A2D720080A743 /* SDLoginViewController.swift */; };
+		D8D3CDB62A2A2D7F0080A743 /* SDLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDB52A2A2D7F0080A743 /* SDLoginViewModel.swift */; };
+		D8D3CDBA2A2A48A80080A743 /* SDBgImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDB92A2A48A80080A743 /* SDBgImageButton.swift */; };
+		D8D3CDBE2A2AC6B80080A743 /* SDLoginByPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDBD2A2AC6B80080A743 /* SDLoginByPhoneViewController.swift */; };
+		D8D3CDC02A2AC6C90080A743 /* SDLoginByPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDBF2A2AC6C90080A743 /* SDLoginByPhoneViewModel.swift */; };
+		D8D3CDC22A2B1D530080A743 /* SDInvitationCodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDC12A2B1D530080A743 /* SDInvitationCodeButton.swift */; };
+		D8D3CDC62A2C3BA20080A743 /* SPMemberTopInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3CDC52A2C3BA20080A743 /* SPMemberTopInfoView.swift */; };
+		D8D477C52A3216D400F81A05 /* SDNormalBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D477C42A3216D400F81A05 /* SDNormalBgView.swift */; };
+		D8D477C92A3219CD00F81A05 /* SDGameLogItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D477C72A3219CD00F81A05 /* SDGameLogItemModel.swift */; };
+		D8D477CA2A3219CD00F81A05 /* SDGameLogItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D477C82A3219CD00F81A05 /* SDGameLogItemTableViewCell.swift */; };
+		D8D477CC2A322E5000F81A05 /* SDNormalNavgationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D477CB2A322E5000F81A05 /* SDNormalNavgationBarView.swift */; };
+		D8D47E8F2A389EBA00CE4E8D /* SDAlertPortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E8E2A389EBA00CE4E8D /* SDAlertPortraitViewController.swift */; };
+		D8D47E922A38A07900CE4E8D /* SRrecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E912A38A07900CE4E8D /* SRrecordViewController.swift */; };
+		D8D47E942A38A09000CE4E8D /* SRrecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E932A38A09000CE4E8D /* SRrecordViewModel.swift */; };
+		D8D47E962A38A25D00CE4E8D /* SPTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E952A38A25D00CE4E8D /* SPTabView.swift */; };
+		D8D47E982A38A3CA00CE4E8D /* SDTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E972A38A3CA00CE4E8D /* SDTabItemView.swift */; };
+		D8D47E9B2A38AEA400CE4E8D /* SPLineTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E9A2A38AEA400CE4E8D /* SPLineTabView.swift */; };
+		D8D47E9D2A38AEBA00CE4E8D /* SPLineTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E9C2A38AEBA00CE4E8D /* SPLineTabItemView.swift */; };
+		D8D47E9F2A38B2AB00CE4E8D /* SPRecordItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47E9E2A38B2AB00CE4E8D /* SPRecordItemViewModel.swift */; };
+		D8D47EA12A38B2BA00CE4E8D /* SPRecordItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47EA02A38B2BA00CE4E8D /* SPRecordItemTableViewCell.swift */; };
+		D8D7F86C2A39E4AA00272FC7 /* SPRechargeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F86B2A39E4AA00272FC7 /* SPRechargeItemViewModel.swift */; };
+		D8D7F86E2A39E4ED00272FC7 /* SPRechargeItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D7F86D2A39E4ED00272FC7 /* SPRechargeItemCollectionViewCell.swift */; };
+		D8D949542A27858C00924C2A /* SPLevelProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949532A27858C00924C2A /* SPLevelProcessView.swift */; };
+		D8D949562A278A9F00924C2A /* SPLevelProcessBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D949552A278A9F00924C2A /* SPLevelProcessBgView.swift */; };
+		D8DBA3682A279C3B00BC1C80 /* SDTipLevelInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBA3672A279C3B00BC1C80 /* SDTipLevelInfoView.swift */; };
+		D8DBA36A2A27A2E200BC1C80 /* SDBankUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBA3692A27A2E200BC1C80 /* SDBankUnitView.swift */; };
+		D8E089A42A2625F000CBC99C /* SDAuthInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E089A32A2625F000CBC99C /* SDAuthInfoView.swift */; };
+		D8E3A1BD2A48A0F100C33FB3 /* SDTCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1BC2A48A0F100C33FB3 /* SDTCPClient.swift */; };
+		D8E3A1BF2A48A14300C33FB3 /* SDTCPClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1BE2A48A14300C33FB3 /* SDTCPClientService.swift */; };
+		D8E3A1DA2A48A16C00C33FB3 /* SDTcpStartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C12A48A16C00C33FB3 /* SDTcpStartResponse.swift */; };
+		D8E3A1DB2A48A16C00C33FB3 /* SDBaseTcpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C22A48A16C00C33FB3 /* SDBaseTcpData.swift */; };
+		D8E3A1DC2A48A16C00C33FB3 /* SDTcpOperateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C32A48A16C00C33FB3 /* SDTcpOperateResponse.swift */; };
+		D8E3A1DD2A48A16C00C33FB3 /* SDTcpOtherGrabResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C42A48A16C00C33FB3 /* SDTcpOtherGrabResponse.swift */; };
+		D8E3A1DE2A48A16C00C33FB3 /* SDTcpAppointmentPlayResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C52A48A16C00C33FB3 /* SDTcpAppointmentPlayResponse.swift */; };
+		D8E3A1DF2A48A16C00C33FB3 /* SDTcpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C62A48A16C00C33FB3 /* SDTcpResponse.swift */; };
+		D8E3A1E02A48A16C00C33FB3 /* SDTcpGameUrlResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C72A48A16C00C33FB3 /* SDTcpGameUrlResponse.swift */; };
+		D8E3A1E12A48A16C00C33FB3 /* SDTcpConnectedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C82A48A16C00C33FB3 /* SDTcpConnectedResponse.swift */; };
+		D8E3A1E22A48A16C00C33FB3 /* SDTcpAppointmentChangeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1C92A48A16C00C33FB3 /* SDTcpAppointmentChangeResponse.swift */; };
+		D8E3A1E32A48A16C00C33FB3 /* SDTcpSendSaintPostionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1CA2A48A16C00C33FB3 /* SDTcpSendSaintPostionData.swift */; };
+		D8E3A1E42A48A16C00C33FB3 /* SDTcpSendTcpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1CB2A48A16C00C33FB3 /* SDTcpSendTcpData.swift */; };
+		D8E3A1E52A48A16C00C33FB3 /* SDTcpArcadeCoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1CC2A48A16C00C33FB3 /* SDTcpArcadeCoinResponse.swift */; };
+		D8E3A1E62A48A16C00C33FB3 /* SDTcpSettlementResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1CD2A48A16C00C33FB3 /* SDTcpSettlementResponse.swift */; };
+		D8E3A1E72A48A16C00C33FB3 /* SDTcpGrapResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1CE2A48A16C00C33FB3 /* SDTcpGrapResponse.swift */; };
+		D8E3A1E82A48A16C00C33FB3 /* SDTcpSystemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1CF2A48A16C00C33FB3 /* SDTcpSystemResponse.swift */; };
+		D8E3A1E92A48A16C00C33FB3 /* SDTcpSendSaintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D02A48A16C00C33FB3 /* SDTcpSendSaintData.swift */; };
+		D8E3A1EA2A48A16C00C33FB3 /* SDTcpPushCoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D12A48A16C00C33FB3 /* SDTcpPushCoinResponse.swift */; };
+		D8E3A1EB2A48A16C00C33FB3 /* SDTcpSendSaintMoveDirctionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D22A48A16C00C33FB3 /* SDTcpSendSaintMoveDirctionData.swift */; };
+		D8E3A1EC2A48A16C00C33FB3 /* SDTcpConnectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D32A48A16C00C33FB3 /* SDTcpConnectData.swift */; };
+		D8E3A1ED2A48A16C00C33FB3 /* SDTcpSendSaintCoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D42A48A16C00C33FB3 /* SDTcpSendSaintCoinData.swift */; };
+		D8E3A1EE2A48A16C00C33FB3 /* SDTcpTextMessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D52A48A16C00C33FB3 /* SDTcpTextMessageResponse.swift */; };
+		D8E3A1EF2A48A16C00C33FB3 /* SDTcpStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D62A48A16C00C33FB3 /* SDTcpStatusResponse.swift */; };
+		D8E3A1F02A48A16C00C33FB3 /* SDTcpSendSaintLeaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D72A48A16C00C33FB3 /* SDTcpSendSaintLeaveData.swift */; };
+		D8E3A1F12A48A16C00C33FB3 /* SDTcpHeartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D82A48A16C00C33FB3 /* SDTcpHeartData.swift */; };
+		D8E3A1F22A48A16C00C33FB3 /* SDTcpAppointmentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1D92A48A16C00C33FB3 /* SDTcpAppointmentResponse.swift */; };
+		D8E3A2102A48A24A00C33FB3 /* SDArcadeGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1F42A48A24A00C33FB3 /* SDArcadeGameViewController.swift */; };
+		D8E3A2112A48A24A00C33FB3 /* SDGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1F52A48A24A00C33FB3 /* SDGameViewModel.swift */; };
+		D8E3A2122A48A24A00C33FB3 /* SDTcpSocketSendDataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1F62A48A24A00C33FB3 /* SDTcpSocketSendDataUtils.swift */; };
+		D8E3A2132A48A24A00C33FB3 /* SDSettlementResultAlertContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1F82A48A24A00C33FB3 /* SDSettlementResultAlertContentView.swift */; };
+		D8E3A2142A48A24A00C33FB3 /* SDGameAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1F92A48A24A00C33FB3 /* SDGameAlertViewController.swift */; };
+		D8E3A2152A48A24A00C33FB3 /* SDGameDefineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1FA2A48A24A00C33FB3 /* SDGameDefineInfo.swift */; };
+		D8E3A2162A48A24A00C33FB3 /* SDRechargeInGameAlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1FC2A48A24A00C33FB3 /* SDRechargeInGameAlertViewModel.swift */; };
+		D8E3A2172A48A24A00C33FB3 /* SDRechargeUnitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1FE2A48A24A00C33FB3 /* SDRechargeUnitCollectionViewCell.swift */; };
+		D8E3A2182A48A24A00C33FB3 /* SDRechargeUnitCollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A1FF2A48A24A00C33FB3 /* SDRechargeUnitCollectionData.swift */; };
+		D8E3A2192A48A24A00C33FB3 /* SDRechargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2002A48A24A00C33FB3 /* SDRechargeViewController.swift */; };
+		D8E3A21A2A48A24A00C33FB3 /* SDRechargeInGameAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2012A48A24A00C33FB3 /* SDRechargeInGameAlertViewController.swift */; };
+		D8E3A21B2A48A24A00C33FB3 /* SDBaseGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2022A48A24A00C33FB3 /* SDBaseGameViewController.swift */; };
+		D8E3A21C2A48A24A00C33FB3 /* SDFoldingAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2042A48A24A00C33FB3 /* SDFoldingAvatarView.swift */; };
+		D8E3A21D2A48A24A00C33FB3 /* SDGameVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2052A48A24A00C33FB3 /* SDGameVideoView.swift */; };
+		D8E3A21E2A48A24A00C33FB3 /* SDCurrentSeatPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2062A48A24A00C33FB3 /* SDCurrentSeatPlayerView.swift */; };
+		D8E3A21F2A48A24A00C33FB3 /* SDSeatPlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2072A48A24A00C33FB3 /* SDSeatPlayersView.swift */; };
+		D8E3A2202A48A24A00C33FB3 /* SDSettlementSeatPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2082A48A24A00C33FB3 /* SDSettlementSeatPlayerView.swift */; };
+		D8E3A2212A48A24A00C33FB3 /* SDSeatGameActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2092A48A24A00C33FB3 /* SDSeatGameActionView.swift */; };
+		D8E3A2222A48A24A00C33FB3 /* SDAwaitSeatBtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A20A2A48A24A00C33FB3 /* SDAwaitSeatBtView.swift */; };
+		D8E3A2232A48A24A00C33FB3 /* SDSeatPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A20B2A48A24A00C33FB3 /* SDSeatPlayerView.swift */; };
+		D8E3A2242A48A24A00C33FB3 /* SDArcadeGameControllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A20C2A48A24A00C33FB3 /* SDArcadeGameControllView.swift */; };
+		D8E3A2252A48A24A00C33FB3 /* SDArcadeOnlookerPlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A20D2A48A24A00C33FB3 /* SDArcadeOnlookerPlayersView.swift */; };
+		D8E3A2262A48A24A00C33FB3 /* SDSeatGameDirectionControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A20E2A48A24A00C33FB3 /* SDSeatGameDirectionControlView.swift */; };
+		D8E3A2272A48A24A00C33FB3 /* SDGameMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A20F2A48A24A00C33FB3 /* SDGameMoneyView.swift */; };
+		D8E3A2292A48A32000C33FB3 /* SDRTCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3A2282A48A32000C33FB3 /* SDRTCView.swift */; };
+		D8E6056F2A3B57A300885606 /* SPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6056E2A3B57A300885606 /* SPGradientView.swift */; };
+		D8EA205E2A2E243600790FD8 /* SPMineCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA205D2A2E243600790FD8 /* SPMineCellModel.swift */; };
+		D8EA20602A2E244600790FD8 /* SPMineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA205F2A2E244600790FD8 /* SPMineTableViewCell.swift */; };
+		D8EB4AE72A69886E00C7637E /* SDExchangeInGameAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB4AE62A69886E00C7637E /* SDExchangeInGameAlertViewController.swift */; };
+		D8F158E32A1E67580054FE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F158E22A1E67580054FE46 /* AppDelegate.swift */; };
+		D8F158E52A1E67580054FE46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F158E42A1E67580054FE46 /* SceneDelegate.swift */; };
+		D8F158EA2A1E67580054FE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F158E82A1E67580054FE46 /* Main.storyboard */; };
+		D8F158EC2A1E67590054FE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F158EB2A1E67590054FE46 /* Assets.xcassets */; };
+		D8F158EF2A1E67590054FE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F158ED2A1E67590054FE46 /* LaunchScreen.storyboard */; };
+		D8F37C2C2A374D6F0044F461 /* SPGameDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C2B2A374D6F0044F461 /* SPGameDetailCell.swift */; };
+		D8F37C2E2A3751060044F461 /* SDGameDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C2D2A3751060044F461 /* SDGameDetailHeaderView.swift */; };
+		D8F37C302A3752790044F461 /* SPGameSettlementRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C2F2A3752790044F461 /* SPGameSettlementRecordViewModel.swift */; };
+		D8F37C322A3752840044F461 /* SPGameSettlementRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C312A3752840044F461 /* SPGameSettlementRecordTableViewCell.swift */; };
+		D8F37C342A3760E70044F461 /* SPComplateActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C332A3760E70044F461 /* SPComplateActionSheetViewController.swift */; };
+		D8F37C362A3773DF0044F461 /* SPGameApealLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C352A3773DF0044F461 /* SPGameApealLogViewController.swift */; };
+		D8F37C382A3773EF0044F461 /* SPGameApealLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C372A3773EF0044F461 /* SPGameApealLogViewModel.swift */; };
+		D8F37C3A2A3777C80044F461 /* SDGameComplaintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C392A3777C80044F461 /* SDGameComplaintViewModel.swift */; };
+		D8F37C3C2A3777D20044F461 /* SDGameComplaintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C3B2A3777D20044F461 /* SDGameComplaintTableViewCell.swift */; };
+		D8F37C3E2A377CE60044F461 /* SPGameApealDeatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C3D2A377CE60044F461 /* SPGameApealDeatilViewController.swift */; };
+		D8F37C402A377CF60044F461 /* SPGameApealDeatilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C3F2A377CF60044F461 /* SPGameApealDeatilViewModel.swift */; };
+		DC24648B2B318915006032F2 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2464882B318914006032F2 /* GTMBase64.m */; };
+		DC2F77BE2B2C2AF6004060A5 /* YDAESDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2F77BD2B2C2AF6004060A5 /* YDAESDataTool.m */; };
+		DC9D8DD72B2161CF00809048 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9D8DD52B2161CF00809048 /* YDAlertView.m */; };
+		DCB764302B258248007B5641 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7642F2B258248007B5641 /* MediaPlayer.framework */; };
+		DCBF59392B26D8B600758204 /* YDPushScreenPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF59382B26D8B600758204 /* YDPushScreenPreView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		121D5E9D5C9B243C7622DBC1 /* Pods-game_wwj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-game_wwj.debug.xcconfig"; path = "Target Support Files/Pods-game_wwj/Pods-game_wwj.debug.xcconfig"; sourceTree = "<group>"; };
+		4C32CAE82B0B3F6D00BB808C /* ZCNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNetwork.m; sourceTree = "<group>"; };
+		4C32CAE92B0B3F6E00BB808C /* ZCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNetwork.h; sourceTree = "<group>"; };
+		4C32CAEB2B0B404100BB808C /* ZCSaveUserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCSaveUserData.h; sourceTree = "<group>"; };
+		4C32CAEC2B0B404100BB808C /* ZCSaveUserData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCSaveUserData.m; sourceTree = "<group>"; };
+		4C32CAEE2B0B41BC00BB808C /* ZCUserGameService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCUserGameService.h; sourceTree = "<group>"; };
+		4C32CAEF2B0B41BC00BB808C /* ZCUserGameService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCUserGameService.m; sourceTree = "<group>"; };
+		4C32CAF12B0B4A9B00BB808C /* YDSocketBackData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSocketBackData.h; sourceTree = "<group>"; };
+		4C32CAF22B0B4A9B00BB808C /* YDSocketBackData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSocketBackData.m; sourceTree = "<group>"; };
+		4C66A2CA2B1DD213007A3513 /* YDSpaceMetalImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceMetalImage.h; sourceTree = "<group>"; };
+		4C66A2CB2B1DD213007A3513 /* YDSpaceMetalImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceMetalImage.m; sourceTree = "<group>"; };
+		4C66A2CD2B1F0B7C007A3513 /* YDSpaceAnimalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceAnimalView.h; sourceTree = "<group>"; };
+		4C66A2CE2B1F0B7C007A3513 /* YDSpaceAnimalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceAnimalView.m; sourceTree = "<group>"; };
+		4C66A2D02B1F0CA6007A3513 /* UIView+Positon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positon.m"; sourceTree = "<group>"; };
+		4C66A2D12B1F0CA6007A3513 /* UIView+Positon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positon.h"; sourceTree = "<group>"; };
+		4C8474A02A5698EF008E9767 /* SDRankUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankUserInfoView.swift; sourceTree = "<group>"; };
+		4C8474A22A57F124008E9767 /* SDRechargeAlertMoneyUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRechargeAlertMoneyUnitView.swift; sourceTree = "<group>"; };
+		4C8A95E42B06F69A0014A339 /* UIResponder+Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		4C8A95E52B06F69A0014A339 /* UIResponder+Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
+		4C8A95E72B06F9E30014A339 /* HZPushGameOpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPushGameOpView.h; sourceTree = "<group>"; };
+		4C8A95E82B06F9E30014A339 /* HZPushGameOpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPushGameOpView.m; sourceTree = "<group>"; };
+		4C8A95EE2B0735F30014A339 /* HZPushPullVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPushPullVideoView.h; sourceTree = "<group>"; };
+		4C8A95EF2B0735F30014A339 /* HZPushPullVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPushPullVideoView.m; sourceTree = "<group>"; };
+		4C8A95F12B074A710014A339 /* YDSocketConnectService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSocketConnectService.h; sourceTree = "<group>"; };
+		4C8A95F22B074A710014A339 /* YDSocketConnectService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSocketConnectService.m; sourceTree = "<group>"; };
+		4C8A95F52B07622B0014A339 /* YDPushPullStreamView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushPullStreamView.h; sourceTree = "<group>"; };
+		4C8A95F62B07622B0014A339 /* YDPushPullStreamView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushPullStreamView.m; sourceTree = "<group>"; };
+		4CA5DA342B05B72400F33916 /* HZPushGameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPushGameController.h; sourceTree = "<group>"; };
+		4CA5DA352B05B72400F33916 /* HZPushGameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPushGameController.m; sourceTree = "<group>"; };
+		4CA5DA372B05BDB000F33916 /* HZPushUserProfileView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPushUserProfileView.h; sourceTree = "<group>"; };
+		4CA5DA382B05BDB000F33916 /* HZPushUserProfileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPushUserProfileView.m; sourceTree = "<group>"; };
+		4CA5DA3D2B05C75B00F33916 /* HZUserWalletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZUserWalletView.h; sourceTree = "<group>"; };
+		4CA5DA3E2B05C75B00F33916 /* HZUserWalletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZUserWalletView.m; sourceTree = "<group>"; };
+		4CA5DA402B060DC400F33916 /* HZPushOpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPushOpView.h; sourceTree = "<group>"; };
+		4CA5DA412B060DC400F33916 /* HZPushOpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPushOpView.m; sourceTree = "<group>"; };
+		4CA5DA432B06102E00F33916 /* HZSimpleBtnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZSimpleBtnView.h; sourceTree = "<group>"; };
+		4CA5DA442B06102E00F33916 /* HZSimpleBtnView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZSimpleBtnView.m; sourceTree = "<group>"; };
+		4CA5DA462B06181D00F33916 /* HZPushScoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPushScoreView.h; sourceTree = "<group>"; };
+		4CA5DA472B06181D00F33916 /* HZPushScoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPushScoreView.m; sourceTree = "<group>"; };
+		4CC988872B14339B00CFC4B7 /* YDSimpleBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSimpleBaseView.h; sourceTree = "<group>"; };
+		4CC988882B14339B00CFC4B7 /* YDSimpleBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSimpleBaseView.m; sourceTree = "<group>"; };
+		4CC9888A2B143FF700CFC4B7 /* YDPushRechargeAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushRechargeAlertView.h; sourceTree = "<group>"; };
+		4CC9888B2B143FF700CFC4B7 /* YDPushRechargeAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushRechargeAlertView.m; sourceTree = "<group>"; };
+		4CC9888D2B14473400CFC4B7 /* YDPushRechargePackCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushRechargePackCardCell.h; sourceTree = "<group>"; };
+		4CC9888E2B14473400CFC4B7 /* YDPushRechargePackCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushRechargePackCardCell.m; sourceTree = "<group>"; };
+		4CC988902B14474A00CFC4B7 /* YDPushRechargeItemCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushRechargeItemCardCell.h; sourceTree = "<group>"; };
+		4CC988912B14474A00CFC4B7 /* YDPushRechargeItemCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushRechargeItemCardCell.m; sourceTree = "<group>"; };
+		4CC988932B1483A900CFC4B7 /* YDPushExchangeAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushExchangeAlertView.h; sourceTree = "<group>"; };
+		4CC988942B1483A900CFC4B7 /* YDPushExchangeAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushExchangeAlertView.m; sourceTree = "<group>"; };
+		4CC988962B1483F900CFC4B7 /* YDPushExchangeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushExchangeItemCell.h; sourceTree = "<group>"; };
+		4CC988972B1483F900CFC4B7 /* YDPushExchangeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushExchangeItemCell.m; sourceTree = "<group>"; };
+		4CC9889A2B157D8600CFC4B7 /* YDPushRechargeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushRechargeModel.h; sourceTree = "<group>"; };
+		4CC9889B2B157D8600CFC4B7 /* YDPushRechargeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushRechargeModel.m; sourceTree = "<group>"; };
+		4CC9889D2B157D9500CFC4B7 /* YDPushExchangeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushExchangeModel.h; sourceTree = "<group>"; };
+		4CC9889E2B157D9500CFC4B7 /* YDPushExchangeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushExchangeModel.m; sourceTree = "<group>"; };
+		4CC988A22B159A8C00CFC4B7 /* YDPushWalletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushWalletView.h; sourceTree = "<group>"; };
+		4CC988A32B159A8C00CFC4B7 /* YDPushWalletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushWalletView.m; sourceTree = "<group>"; };
+		4CC988A52B15BFB100CFC4B7 /* YDExchangeAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDExchangeAlertView.h; sourceTree = "<group>"; };
+		4CC988A62B15BFB100CFC4B7 /* YDExchangeAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDExchangeAlertView.m; sourceTree = "<group>"; };
+		4CC988A82B15C98C00CFC4B7 /* YDExchangeSucView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDExchangeSucView.h; sourceTree = "<group>"; };
+		4CC988A92B15C98C00CFC4B7 /* YDExchangeSucView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDExchangeSucView.m; sourceTree = "<group>"; };
+		4CC988AB2B15D19600CFC4B7 /* YDApplePayModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDApplePayModule.h; sourceTree = "<group>"; };
+		4CC988AC2B15D19600CFC4B7 /* YDApplePayModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDApplePayModule.m; sourceTree = "<group>"; };
+		4CC988AE2B15D76000CFC4B7 /* YDRechaegeFailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRechaegeFailView.h; sourceTree = "<group>"; };
+		4CC988AF2B15D76000CFC4B7 /* YDRechaegeFailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRechaegeFailView.m; sourceTree = "<group>"; };
+		4CC988B52B15E16A00CFC4B7 /* YDPushOffLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushOffLineView.h; sourceTree = "<group>"; };
+		4CC988B62B15E16A00CFC4B7 /* YDPushOffLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushOffLineView.m; sourceTree = "<group>"; };
+		4CC988B82B15EE3B00CFC4B7 /* voice_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voice_back.mp3; sourceTree = "<group>"; };
+		4CC988BD2B16DDF600CFC4B7 /* YDScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDScreenController.swift; sourceTree = "<group>"; };
+		4CC988C32B17225700CFC4B7 /* YDTaskCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTaskCenterController.h; sourceTree = "<group>"; };
+		4CC988C42B17225700CFC4B7 /* YDTaskCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTaskCenterController.m; sourceTree = "<group>"; };
+		4CC988C62B17247700CFC4B7 /* YDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseViewController.h; sourceTree = "<group>"; };
+		4CC988C72B17247700CFC4B7 /* YDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseViewController.m; sourceTree = "<group>"; };
+		4CC988C92B172F6600CFC4B7 /* YDPushTimeOutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushTimeOutView.h; sourceTree = "<group>"; };
+		4CC988CA2B172F6600CFC4B7 /* YDPushTimeOutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushTimeOutView.m; sourceTree = "<group>"; };
+		4CC989192B18238B00CFC4B7 /* YDSpaceCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceCenterController.h; sourceTree = "<group>"; };
+		4CC9891A2B18238B00CFC4B7 /* YDSpaceCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceCenterController.m; sourceTree = "<group>"; };
+		4CC9891F2B18263900CFC4B7 /* YDSpaceSimpleStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceSimpleStarView.h; sourceTree = "<group>"; };
+		4CC989202B18263900CFC4B7 /* YDSpaceSimpleStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceSimpleStarView.m; sourceTree = "<group>"; };
+		4CC989292B18358300CFC4B7 /* YDSpaceCenterStarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceCenterStarCell.h; sourceTree = "<group>"; };
+		4CC9892A2B18358300CFC4B7 /* YDSpaceCenterStarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceCenterStarCell.m; sourceTree = "<group>"; };
+		4CC9892C2B18374E00CFC4B7 /* YDSpaceStarRoomItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceStarRoomItemCell.h; sourceTree = "<group>"; };
+		4CC9892D2B18374E00CFC4B7 /* YDSpaceStarRoomItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceStarRoomItemCell.m; sourceTree = "<group>"; };
+		4CC9892F2B183E1600CFC4B7 /* YDSpaceSideLeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceSideLeftView.h; sourceTree = "<group>"; };
+		4CC989302B183E1600CFC4B7 /* YDSpaceSideLeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceSideLeftView.m; sourceTree = "<group>"; };
+		4CC989322B185A6700CFC4B7 /* YDSpaceUserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceUserInfoView.h; sourceTree = "<group>"; };
+		4CC989332B185A6700CFC4B7 /* YDSpaceUserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceUserInfoView.m; sourceTree = "<group>"; };
+		4CC989352B185BD700CFC4B7 /* YDHelpTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHelpTools.h; sourceTree = "<group>"; };
+		4CC989362B185BD700CFC4B7 /* YDHelpTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHelpTools.m; sourceTree = "<group>"; };
+		4CC989382B185FD700CFC4B7 /* YDSpaceUserWalletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceUserWalletView.h; sourceTree = "<group>"; };
+		4CC989392B185FD700CFC4B7 /* YDSpaceUserWalletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceUserWalletView.m; sourceTree = "<group>"; };
+		4CC9893D2B18D97E00CFC4B7 /* JsonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonUtil.swift; sourceTree = "<group>"; };
+		4CC9893F2B18D9AB00CFC4B7 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		4CC989412B19701E00CFC4B7 /* YDPushAlertCoinNoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushAlertCoinNoneView.h; sourceTree = "<group>"; };
+		4CC989422B19701E00CFC4B7 /* YDPushAlertCoinNoneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushAlertCoinNoneView.m; sourceTree = "<group>"; };
+		4CC989442B197BD000CFC4B7 /* YDSpaceWorkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceWorkController.h; sourceTree = "<group>"; };
+		4CC989452B197BD000CFC4B7 /* YDSpaceWorkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceWorkController.m; sourceTree = "<group>"; };
+		4CC9894A2B197E6000CFC4B7 /* YDSpaceRewardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceRewardController.h; sourceTree = "<group>"; };
+		4CC9894B2B197E6000CFC4B7 /* YDSpaceRewardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceRewardController.m; sourceTree = "<group>"; };
+		4CC9894D2B19AF6500CFC4B7 /* YDSpaceWorkLevelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceWorkLevelView.h; sourceTree = "<group>"; };
+		4CC9894E2B19AF6500CFC4B7 /* YDSpaceWorkLevelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceWorkLevelView.m; sourceTree = "<group>"; };
+		4CC989502B19B8BF00CFC4B7 /* YDSpaceWorkItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceWorkItemCell.h; sourceTree = "<group>"; };
+		4CC989512B19B8BF00CFC4B7 /* YDSpaceWorkItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceWorkItemCell.m; sourceTree = "<group>"; };
+		4CC989532B19DBB100CFC4B7 /* YDSpaceRoomListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSpaceRoomListModel.h; sourceTree = "<group>"; };
+		4CC989542B19DBB100CFC4B7 /* YDSpaceRoomListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSpaceRoomListModel.m; sourceTree = "<group>"; };
+		D800EC442A33F22000DBD97D /* SPGameLogDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameLogDetailViewModel.swift; sourceTree = "<group>"; };
+		D800EC462A33F25A00DBD97D /* SPGameLogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameLogDetailViewController.swift; sourceTree = "<group>"; };
+		D80369B22A30A33800163281 /* SPSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSettingViewController.swift; sourceTree = "<group>"; };
+		D80369B42A30A41E00163281 /* SPSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSettingViewModel.swift; sourceTree = "<group>"; };
+		D80369B62A30AB4400163281 /* SPSettingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSettingCoordinator.swift; sourceTree = "<group>"; };
+		D8043AF12A21D13900B9D231 /* SPShopCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPShopCoordinator.swift; sourceTree = "<group>"; };
+		D8043AF32A21D14F00B9D231 /* SDShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDShopViewController.swift; sourceTree = "<group>"; };
+		D8043AF52A21D16600B9D231 /* SDShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDShopViewModel.swift; sourceTree = "<group>"; };
+		D8043AFB2A21D95700B9D231 /* SPExchangeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPExchangeCoordinator.swift; sourceTree = "<group>"; };
+		D8043AFD2A21D97600B9D231 /* SPExchangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPExchangeViewModel.swift; sourceTree = "<group>"; };
+		D8043AFF2A21D99A00B9D231 /* SPExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPExchangeViewController.swift; sourceTree = "<group>"; };
+		D8043B0A2A22382E00B9D231 /* gamewwj-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gamewwj-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8043B0B2A22EA6200B9D231 /* SPCustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCustomTabbar.swift; sourceTree = "<group>"; };
+		D8043B0D2A22EAD600B9D231 /* SPTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTabbarViewController.swift; sourceTree = "<group>"; };
+		D8043B0F2A23805400B9D231 /* SPTabbarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTabbarItemView.swift; sourceTree = "<group>"; };
+		D807BDE72A66D3E4007D2AA8 /* SDAppleOrderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAppleOrderData.swift; sourceTree = "<group>"; };
+		D80DAC282A3D347F001BC817 /* SPPayWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPPayWebViewController.swift; sourceTree = "<group>"; };
+		D80DAC2F2A3D5072001BC817 /* SPExchangeGoldWithDiamondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPExchangeGoldWithDiamondView.swift; sourceTree = "<group>"; };
+		D80DAC312A3D5E3D001BC817 /* SPExchangeGoldWithPointData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPExchangeGoldWithPointData.swift; sourceTree = "<group>"; };
+		D80DAC332A3D605C001BC817 /* SPExchangeGoldWithPointItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPExchangeGoldWithPointItemViewModel.swift; sourceTree = "<group>"; };
+		D80DAC352A3D6079001BC817 /* SPExchangeGoldWithPointItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPExchangeGoldWithPointItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		D80DAC372A3D7AB8001BC817 /* SDExchangeGlodSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDExchangeGlodSectionHeaderView.swift; sourceTree = "<group>"; };
+		D80DAC392A3DE5F7001BC817 /* SDExchangeGoldWithPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDExchangeGoldWithPointViewController.swift; sourceTree = "<group>"; };
+		D80DAC3B2A3DF0DD001BC817 /* SDExchangeGoldWithPointSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDExchangeGoldWithPointSuccessViewController.swift; sourceTree = "<group>"; };
+		D80DAC3D2A3DF512001BC817 /* SDMemberMoneyLogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMemberMoneyLogData.swift; sourceTree = "<group>"; };
+		D80DAC412A3E0CB1001BC817 /* SDSummaryRankPageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSummaryRankPageData.swift; sourceTree = "<group>"; };
+		D80DAC442A3E1462001BC817 /* SDRankSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankSortView.swift; sourceTree = "<group>"; };
+		D80DAC462A3E1667001BC817 /* SDRankSortUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankSortUserInfoView.swift; sourceTree = "<group>"; };
+		D80DAC482A3E1A3B001BC817 /* SDRankSortItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankSortItemViewModel.swift; sourceTree = "<group>"; };
+		D80DAC4A2A3E1A48001BC817 /* SDRankSortItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankSortItemTableViewCell.swift; sourceTree = "<group>"; };
+		D80DAC4D2A3EB131001BC817 /* SDSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSignViewController.swift; sourceTree = "<group>"; };
+		D80DAC4F2A3EB512001BC817 /* SDSignListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSignListData.swift; sourceTree = "<group>"; };
+		D80DAC512A3EEFFB001BC817 /* SDSignUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSignUnitView.swift; sourceTree = "<group>"; };
+		D80DAC562A3F046D001BC817 /* SDGamePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGamePageViewController.swift; sourceTree = "<group>"; };
+		D80DAC582A3F047D001BC817 /* SDGamePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGamePageViewModel.swift; sourceTree = "<group>"; };
+		D80DAC5B2A3F33B3001BC817 /* SDGameRoomItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameRoomItemViewModel.swift; sourceTree = "<group>"; };
+		D80DAC5D2A3F33C0001BC817 /* SDGameRoomItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameRoomItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8193F332A43E4A500FB0DCD /* SDRoomTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRoomTagView.swift; sourceTree = "<group>"; };
+		D8193F362A43EA1F00FB0DCD /* SDInvitedCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDInvitedCodeViewController.swift; sourceTree = "<group>"; };
+		D8193F382A43EA3200FB0DCD /* SDInvitedCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDInvitedCodeViewModel.swift; sourceTree = "<group>"; };
+		D8193F3A2A444A4C00FB0DCD /* SDInputInviteCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDInputInviteCodeViewController.swift; sourceTree = "<group>"; };
+		D8193F3E2A44612300FB0DCD /* SDWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDWebViewController.swift; sourceTree = "<group>"; };
+		D8193F412A4474D400FB0DCD /* SDInputNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDInputNameViewController.swift; sourceTree = "<group>"; };
+		D8193F442A44A33C00FB0DCD /* SDGuildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGuildViewController.swift; sourceTree = "<group>"; };
+		D8193F462A44A34B00FB0DCD /* SDGuildViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGuildViewModel.swift; sourceTree = "<group>"; };
+		D8193F482A44A5C200FB0DCD /* SDGameStrategyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameStrategyData.swift; sourceTree = "<group>"; };
+		D8193F4B2A44ADF600FB0DCD /* SDGameGuidViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameGuidViewModel.swift; sourceTree = "<group>"; };
+		D8193F4D2A44AE0600FB0DCD /* SDGameGuidTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameGuidTableViewCell.swift; sourceTree = "<group>"; };
+		D8193F4F2A44B97B00FB0DCD /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
+		D8193F532A44C94300FB0DCD /* SDAlertShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAlertShopViewController.swift; sourceTree = "<group>"; };
+		D8276C9F2A93B01F0057B591 /* SDGameRuleModalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameRuleModalData.swift; sourceTree = "<group>"; };
+		D8276CA12A93BD050057B591 /* SDGameTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameTagView.swift; sourceTree = "<group>"; };
+		D83738F42A28C3A7009299D6 /* SDGameFuncGuidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameFuncGuidButton.swift; sourceTree = "<group>"; };
+		D8463DA22A8E732E0001B061 /* SDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDButton.swift; sourceTree = "<group>"; };
+		D85848CA2A40838100644FE1 /* SDHomeGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHomeGroupItem.swift; sourceTree = "<group>"; };
+		D85848CC2A40979400644FE1 /* SDGameRoomStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameRoomStatusView.swift; sourceTree = "<group>"; };
+		D863886A2A682E5200D057F1 /* SDInGameOtherFucButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDInGameOtherFucButton.swift; sourceTree = "<group>"; };
+		D87A28B82A1F805900DBC1B5 /* SDRedCloseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRedCloseView.swift; sourceTree = "<group>"; };
+		D87A28B92A1F805900DBC1B5 /* SDEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDEmptyView.swift; sourceTree = "<group>"; };
+		D87A28BA2A1F805900DBC1B5 /* SDAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAvatarView.swift; sourceTree = "<group>"; };
+		D87A28BB2A1F805900DBC1B5 /* SDImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDImageButton.swift; sourceTree = "<group>"; };
+		D87A28BC2A1F805900DBC1B5 /* SDVerticalImageAndTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDVerticalImageAndTitleButton.swift; sourceTree = "<group>"; };
+		D87A28BD2A1F805900DBC1B5 /* SDPullFlvView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPullFlvView.swift; sourceTree = "<group>"; };
+		D87A28BF2A1F805900DBC1B5 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		D87A28C02A1F805900DBC1B5 /* LoadImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadImageView.swift; sourceTree = "<group>"; };
+		D87A28C12A1F805900DBC1B5 /* BannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BannerView.bundle; sourceTree = "<group>"; };
+		D87A28C22A1F805900DBC1B5 /* BannerVideoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerVideoViewCell.swift; sourceTree = "<group>"; };
+		D87A28C32A1F805900DBC1B5 /* BannerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerTool.swift; sourceTree = "<group>"; };
+		D87A28C42A1F805900DBC1B5 /* BannerViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewFlowLayout.swift; sourceTree = "<group>"; };
+		D87A28C72A1F805900DBC1B5 /* ZYPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPlayer.swift; sourceTree = "<group>"; };
+		D87A28C82A1F805900DBC1B5 /* ZYPlayerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPlayerTool.swift; sourceTree = "<group>"; };
+		D87A28C92A1F805900DBC1B5 /* PlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PlayerView.bundle; sourceTree = "<group>"; };
+		D87A28CA2A1F805900DBC1B5 /* ZYPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPlayerView.swift; sourceTree = "<group>"; };
+		D87A28CC2A1F805900DBC1B5 /* BannerBaseDataInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerBaseDataInfo.swift; sourceTree = "<group>"; };
+		D87A28CD2A1F805900DBC1B5 /* BannerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewCell.swift; sourceTree = "<group>"; };
+		D87A28CF2A1F805900DBC1B5 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		D87A28D02A1F805900DBC1B5 /* CyclesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclesView.swift; sourceTree = "<group>"; };
+		D87A28D32A1F805900DBC1B5 /* SDHomeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDHomeService.swift; sourceTree = "<group>"; };
+		D87A28D42A1F805900DBC1B5 /* SDBaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseRouter.swift; sourceTree = "<group>"; };
+		D87A28D52A1F805900DBC1B5 /* SDUserInfoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDUserInfoService.swift; sourceTree = "<group>"; };
+		D87A28D82A1F805900DBC1B5 /* UserAPIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPIRouter.swift; sourceTree = "<group>"; };
+		D87A28D92A1F805900DBC1B5 /* HomeAPIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAPIRouter.swift; sourceTree = "<group>"; };
+		D87A28DA2A1F805900DBC1B5 /* SDRechargeAPIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRechargeAPIRouter.swift; sourceTree = "<group>"; };
+		D87A28DB2A1F805900DBC1B5 /* SDUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDUserManager.swift; sourceTree = "<group>"; };
+		D87A28DC2A1F805900DBC1B5 /* SDRechargeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRechargeService.swift; sourceTree = "<group>"; };
+		D87A28DD2A1F805900DBC1B5 /* SDCustomService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCustomService.swift; sourceTree = "<group>"; };
+		D87A28DF2A1F805900DBC1B5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D87A28E12A1F805900DBC1B5 /* SDApplePayClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDApplePayClient.swift; sourceTree = "<group>"; };
+		D87A28E32A1F805900DBC1B5 /* CoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		D87A28E42A1F805900DBC1B5 /* ViewModelAttaching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelAttaching.swift; sourceTree = "<group>"; };
+		D87A28E52A1F805900DBC1B5 /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		D87A28E72A1F805900DBC1B5 /* Observable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		D87A28E82A1F805900DBC1B5 /* Byte+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Byte+Ext.swift"; sourceTree = "<group>"; };
+		D87A28E92A1F805900DBC1B5 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		D87A28ED2A1F805900DBC1B5 /* AppDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefine.swift; sourceTree = "<group>"; };
+		D87A28EE2A1F805900DBC1B5 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		D87A28EF2A1F805900DBC1B5 /* SDPortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPortraitViewController.swift; sourceTree = "<group>"; };
+		D87A28F02A1F805900DBC1B5 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		D87A28F12A1F805900DBC1B5 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		D87A28F22A1F805900DBC1B5 /* SDTabbarViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTabbarViewDelegate.swift; sourceTree = "<group>"; };
+		D87A28F32A1F805900DBC1B5 /* SDBaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseCoordinator.swift; sourceTree = "<group>"; };
+		D87A28F42A1F805900DBC1B5 /* SDCollectionItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCollectionItemType.swift; sourceTree = "<group>"; };
+		D87A28F52A1F805900DBC1B5 /* SDCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCollectionViewModel.swift; sourceTree = "<group>"; };
+		D87A28F62A1F805900DBC1B5 /* SDTabbarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTabbarCoordinator.swift; sourceTree = "<group>"; };
+		D87A292D2A1F84E700DBC1B5 /* SDGameRoomData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameRoomData.swift; sourceTree = "<group>"; };
+		D87A292E2A1F84E700DBC1B5 /* SDUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDUser.swift; sourceTree = "<group>"; };
+		D87A292F2A1F84E700DBC1B5 /* SDChargeTypeInfoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChargeTypeInfoData.swift; sourceTree = "<group>"; };
+		D87A29302A1F84E700DBC1B5 /* SDAgreementData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAgreementData.swift; sourceTree = "<group>"; };
+		D87A29312A1F84E700DBC1B5 /* SDDollLogPageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDDollLogPageData.swift; sourceTree = "<group>"; };
+		D87A29322A1F84E700DBC1B5 /* SDGameLiveRoomData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameLiveRoomData.swift; sourceTree = "<group>"; };
+		D87A29332A1F84E700DBC1B5 /* SDAppealDollPageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAppealDollPageData.swift; sourceTree = "<group>"; };
+		D87A29342A1F84E700DBC1B5 /* SDDollLogDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDDollLogDetailData.swift; sourceTree = "<group>"; };
+		D87A29352A1F84E700DBC1B5 /* SDBannerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBannerData.swift; sourceTree = "<group>"; };
+		D87A29362A1F84E700DBC1B5 /* SDResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDResponse.swift; sourceTree = "<group>"; };
+		D87A29412A1F853B00DBC1B5 /* AppDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		D87A29422A1F853B00DBC1B5 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D87A294A2A1F88D800DBC1B5 /* SDHomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHomeCoordinator.swift; sourceTree = "<group>"; };
+		D87A29502A1F903500DBC1B5 /* SDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHomeViewController.swift; sourceTree = "<group>"; };
+		D87A29522A1F905600DBC1B5 /* SDHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHomeViewModel.swift; sourceTree = "<group>"; };
+		D88E1AC92A49DFF500BC8A9F /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		D89B1B5E2A28AE27003C62FB /* ZhenyanGB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZhenyanGB.ttf; sourceTree = "<group>"; };
+		D89B1B602A28B3AF003C62FB /* UIFont+Zhenyan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Zhenyan.swift"; sourceTree = "<group>"; };
+		D89B1B622A28BF0E003C62FB /* SDHomeGameContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHomeGameContentView.swift; sourceTree = "<group>"; };
+		D8BBAC022A8D0F1E00FFF1A2 /* SDSimpleResultAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSimpleResultAlertViewController.swift; sourceTree = "<group>"; };
+		D8BC96A72A69502000C0F4E1 /* SDGameInFuncListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameInFuncListView.swift; sourceTree = "<group>"; };
+		D8CF5CB12A1FAF7000BF487A /* SDMineCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMineCoordinator.swift; sourceTree = "<group>"; };
+		D8CF5CB32A1FAF8E00BF487A /* SDMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMineViewController.swift; sourceTree = "<group>"; };
+		D8CF5CB52A1FAFBC00BF487A /* SDMineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMineViewModel.swift; sourceTree = "<group>"; };
+		D8CF5CB72A1FB12500BF487A /* SDRankCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankCoordinator.swift; sourceTree = "<group>"; };
+		D8CF5CB92A1FB14A00BF487A /* SDRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankViewController.swift; sourceTree = "<group>"; };
+		D8CF5CBB2A1FB15A00BF487A /* SDRankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRankViewModel.swift; sourceTree = "<group>"; };
+		D8CF84B72A2F4C980006EC32 /* SPAuthenticationMineCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAuthenticationMineCellModel.swift; sourceTree = "<group>"; };
+		D8CF84BA2A2F55410006EC32 /* SDAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAuthenticationViewController.swift; sourceTree = "<group>"; };
+		D8CF84BC2A2F55690006EC32 /* SDAuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAuthenticationViewModel.swift; sourceTree = "<group>"; };
+		D8CFCC432A2F8CEA009B6579 /* SDGameLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameLogViewController.swift; sourceTree = "<group>"; };
+		D8CFCC452A2F8D00009B6579 /* SDGameLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameLogViewModel.swift; sourceTree = "<group>"; };
+		D8D2DB232A28F1D200A6947C /* SDBannerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBannerDataModel.swift; sourceTree = "<group>"; };
+		D8D365512A3A05B300E7AC34 /* SPRechargeItemForCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRechargeItemForCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8D3CDB12A2A2D640080A743 /* SDLoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginCoordinator.swift; sourceTree = "<group>"; };
+		D8D3CDB32A2A2D720080A743 /* SDLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginViewController.swift; sourceTree = "<group>"; };
+		D8D3CDB52A2A2D7F0080A743 /* SDLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginViewModel.swift; sourceTree = "<group>"; };
+		D8D3CDB92A2A48A80080A743 /* SDBgImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBgImageButton.swift; sourceTree = "<group>"; };
+		D8D3CDBD2A2AC6B80080A743 /* SDLoginByPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginByPhoneViewController.swift; sourceTree = "<group>"; };
+		D8D3CDBF2A2AC6C90080A743 /* SDLoginByPhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginByPhoneViewModel.swift; sourceTree = "<group>"; };
+		D8D3CDC12A2B1D530080A743 /* SDInvitationCodeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDInvitationCodeButton.swift; sourceTree = "<group>"; };
+		D8D3CDC52A2C3BA20080A743 /* SPMemberTopInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMemberTopInfoView.swift; sourceTree = "<group>"; };
+		D8D477C42A3216D400F81A05 /* SDNormalBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDNormalBgView.swift; sourceTree = "<group>"; };
+		D8D477C72A3219CD00F81A05 /* SDGameLogItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameLogItemModel.swift; sourceTree = "<group>"; };
+		D8D477C82A3219CD00F81A05 /* SDGameLogItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameLogItemTableViewCell.swift; sourceTree = "<group>"; };
+		D8D477CB2A322E5000F81A05 /* SDNormalNavgationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDNormalNavgationBarView.swift; sourceTree = "<group>"; };
+		D8D47E8D2A389D8700CE4E8D /* game_wwj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = game_wwj.entitlements; sourceTree = "<group>"; };
+		D8D47E8E2A389EBA00CE4E8D /* SDAlertPortraitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAlertPortraitViewController.swift; sourceTree = "<group>"; };
+		D8D47E912A38A07900CE4E8D /* SRrecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRrecordViewController.swift; sourceTree = "<group>"; };
+		D8D47E932A38A09000CE4E8D /* SRrecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRrecordViewModel.swift; sourceTree = "<group>"; };
+		D8D47E952A38A25D00CE4E8D /* SPTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTabView.swift; sourceTree = "<group>"; };
+		D8D47E972A38A3CA00CE4E8D /* SDTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTabItemView.swift; sourceTree = "<group>"; };
+		D8D47E9A2A38AEA400CE4E8D /* SPLineTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPLineTabView.swift; sourceTree = "<group>"; };
+		D8D47E9C2A38AEBA00CE4E8D /* SPLineTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPLineTabItemView.swift; sourceTree = "<group>"; };
+		D8D47E9E2A38B2AB00CE4E8D /* SPRecordItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRecordItemViewModel.swift; sourceTree = "<group>"; };
+		D8D47EA02A38B2BA00CE4E8D /* SPRecordItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRecordItemTableViewCell.swift; sourceTree = "<group>"; };
+		D8D7F86B2A39E4AA00272FC7 /* SPRechargeItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRechargeItemViewModel.swift; sourceTree = "<group>"; };
+		D8D7F86D2A39E4ED00272FC7 /* SPRechargeItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRechargeItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8D949532A27858C00924C2A /* SPLevelProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPLevelProcessView.swift; sourceTree = "<group>"; };
+		D8D949552A278A9F00924C2A /* SPLevelProcessBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPLevelProcessBgView.swift; sourceTree = "<group>"; };
+		D8DBA3672A279C3B00BC1C80 /* SDTipLevelInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTipLevelInfoView.swift; sourceTree = "<group>"; };
+		D8DBA3692A27A2E200BC1C80 /* SDBankUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBankUnitView.swift; sourceTree = "<group>"; };
+		D8E089A32A2625F000CBC99C /* SDAuthInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAuthInfoView.swift; sourceTree = "<group>"; };
+		D8E3A1BC2A48A0F100C33FB3 /* SDTCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTCPClient.swift; sourceTree = "<group>"; };
+		D8E3A1BE2A48A14300C33FB3 /* SDTCPClientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTCPClientService.swift; sourceTree = "<group>"; };
+		D8E3A1C12A48A16C00C33FB3 /* SDTcpStartResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpStartResponse.swift; sourceTree = "<group>"; };
+		D8E3A1C22A48A16C00C33FB3 /* SDBaseTcpData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseTcpData.swift; sourceTree = "<group>"; };
+		D8E3A1C32A48A16C00C33FB3 /* SDTcpOperateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpOperateResponse.swift; sourceTree = "<group>"; };
+		D8E3A1C42A48A16C00C33FB3 /* SDTcpOtherGrabResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpOtherGrabResponse.swift; sourceTree = "<group>"; };
+		D8E3A1C52A48A16C00C33FB3 /* SDTcpAppointmentPlayResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpAppointmentPlayResponse.swift; sourceTree = "<group>"; };
+		D8E3A1C62A48A16C00C33FB3 /* SDTcpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpResponse.swift; sourceTree = "<group>"; };
+		D8E3A1C72A48A16C00C33FB3 /* SDTcpGameUrlResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpGameUrlResponse.swift; sourceTree = "<group>"; };
+		D8E3A1C82A48A16C00C33FB3 /* SDTcpConnectedResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpConnectedResponse.swift; sourceTree = "<group>"; };
+		D8E3A1C92A48A16C00C33FB3 /* SDTcpAppointmentChangeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpAppointmentChangeResponse.swift; sourceTree = "<group>"; };
+		D8E3A1CA2A48A16C00C33FB3 /* SDTcpSendSaintPostionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSendSaintPostionData.swift; sourceTree = "<group>"; };
+		D8E3A1CB2A48A16C00C33FB3 /* SDTcpSendTcpData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSendTcpData.swift; sourceTree = "<group>"; };
+		D8E3A1CC2A48A16C00C33FB3 /* SDTcpArcadeCoinResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpArcadeCoinResponse.swift; sourceTree = "<group>"; };
+		D8E3A1CD2A48A16C00C33FB3 /* SDTcpSettlementResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSettlementResponse.swift; sourceTree = "<group>"; };
+		D8E3A1CE2A48A16C00C33FB3 /* SDTcpGrapResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpGrapResponse.swift; sourceTree = "<group>"; };
+		D8E3A1CF2A48A16C00C33FB3 /* SDTcpSystemResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSystemResponse.swift; sourceTree = "<group>"; };
+		D8E3A1D02A48A16C00C33FB3 /* SDTcpSendSaintData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSendSaintData.swift; sourceTree = "<group>"; };
+		D8E3A1D12A48A16C00C33FB3 /* SDTcpPushCoinResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpPushCoinResponse.swift; sourceTree = "<group>"; };
+		D8E3A1D22A48A16C00C33FB3 /* SDTcpSendSaintMoveDirctionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSendSaintMoveDirctionData.swift; sourceTree = "<group>"; };
+		D8E3A1D32A48A16C00C33FB3 /* SDTcpConnectData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpConnectData.swift; sourceTree = "<group>"; };
+		D8E3A1D42A48A16C00C33FB3 /* SDTcpSendSaintCoinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSendSaintCoinData.swift; sourceTree = "<group>"; };
+		D8E3A1D52A48A16C00C33FB3 /* SDTcpTextMessageResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpTextMessageResponse.swift; sourceTree = "<group>"; };
+		D8E3A1D62A48A16C00C33FB3 /* SDTcpStatusResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpStatusResponse.swift; sourceTree = "<group>"; };
+		D8E3A1D72A48A16C00C33FB3 /* SDTcpSendSaintLeaveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSendSaintLeaveData.swift; sourceTree = "<group>"; };
+		D8E3A1D82A48A16C00C33FB3 /* SDTcpHeartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpHeartData.swift; sourceTree = "<group>"; };
+		D8E3A1D92A48A16C00C33FB3 /* SDTcpAppointmentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpAppointmentResponse.swift; sourceTree = "<group>"; };
+		D8E3A1F42A48A24A00C33FB3 /* SDArcadeGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDArcadeGameViewController.swift; sourceTree = "<group>"; };
+		D8E3A1F52A48A24A00C33FB3 /* SDGameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameViewModel.swift; sourceTree = "<group>"; };
+		D8E3A1F62A48A24A00C33FB3 /* SDTcpSocketSendDataUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTcpSocketSendDataUtils.swift; sourceTree = "<group>"; };
+		D8E3A1F82A48A24A00C33FB3 /* SDSettlementResultAlertContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSettlementResultAlertContentView.swift; sourceTree = "<group>"; };
+		D8E3A1F92A48A24A00C33FB3 /* SDGameAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameAlertViewController.swift; sourceTree = "<group>"; };
+		D8E3A1FA2A48A24A00C33FB3 /* SDGameDefineInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameDefineInfo.swift; sourceTree = "<group>"; };
+		D8E3A1FC2A48A24A00C33FB3 /* SDRechargeInGameAlertViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRechargeInGameAlertViewModel.swift; sourceTree = "<group>"; };
+		D8E3A1FE2A48A24A00C33FB3 /* SDRechargeUnitCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRechargeUnitCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8E3A1FF2A48A24A00C33FB3 /* SDRechargeUnitCollectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRechargeUnitCollectionData.swift; sourceTree = "<group>"; };
+		D8E3A2002A48A24A00C33FB3 /* SDRechargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRechargeViewController.swift; sourceTree = "<group>"; };
+		D8E3A2012A48A24A00C33FB3 /* SDRechargeInGameAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRechargeInGameAlertViewController.swift; sourceTree = "<group>"; };
+		D8E3A2022A48A24A00C33FB3 /* SDBaseGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseGameViewController.swift; sourceTree = "<group>"; };
+		D8E3A2042A48A24A00C33FB3 /* SDFoldingAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDFoldingAvatarView.swift; sourceTree = "<group>"; };
+		D8E3A2052A48A24A00C33FB3 /* SDGameVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameVideoView.swift; sourceTree = "<group>"; };
+		D8E3A2062A48A24A00C33FB3 /* SDCurrentSeatPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCurrentSeatPlayerView.swift; sourceTree = "<group>"; };
+		D8E3A2072A48A24A00C33FB3 /* SDSeatPlayersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSeatPlayersView.swift; sourceTree = "<group>"; };
+		D8E3A2082A48A24A00C33FB3 /* SDSettlementSeatPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSettlementSeatPlayerView.swift; sourceTree = "<group>"; };
+		D8E3A2092A48A24A00C33FB3 /* SDSeatGameActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSeatGameActionView.swift; sourceTree = "<group>"; };
+		D8E3A20A2A48A24A00C33FB3 /* SDAwaitSeatBtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAwaitSeatBtView.swift; sourceTree = "<group>"; };
+		D8E3A20B2A48A24A00C33FB3 /* SDSeatPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSeatPlayerView.swift; sourceTree = "<group>"; };
+		D8E3A20C2A48A24A00C33FB3 /* SDArcadeGameControllView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDArcadeGameControllView.swift; sourceTree = "<group>"; };
+		D8E3A20D2A48A24A00C33FB3 /* SDArcadeOnlookerPlayersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDArcadeOnlookerPlayersView.swift; sourceTree = "<group>"; };
+		D8E3A20E2A48A24A00C33FB3 /* SDSeatGameDirectionControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSeatGameDirectionControlView.swift; sourceTree = "<group>"; };
+		D8E3A20F2A48A24A00C33FB3 /* SDGameMoneyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDGameMoneyView.swift; sourceTree = "<group>"; };
+		D8E3A2282A48A32000C33FB3 /* SDRTCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRTCView.swift; sourceTree = "<group>"; };
+		D8E6056E2A3B57A300885606 /* SPGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGradientView.swift; sourceTree = "<group>"; };
+		D8EA205D2A2E243600790FD8 /* SPMineCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMineCellModel.swift; sourceTree = "<group>"; };
+		D8EA205F2A2E244600790FD8 /* SPMineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMineTableViewCell.swift; sourceTree = "<group>"; };
+		D8EB4AE62A69886E00C7637E /* SDExchangeInGameAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDExchangeInGameAlertViewController.swift; sourceTree = "<group>"; };
+		D8F158DF2A1E67580054FE46 /* game_wwj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game_wwj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F158E22A1E67580054FE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8F158E42A1E67580054FE46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8F158E92A1E67580054FE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8F158EB2A1E67590054FE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F158EE2A1E67590054FE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8F158F02A1E67590054FE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F37C2B2A374D6F0044F461 /* SPGameDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameDetailCell.swift; sourceTree = "<group>"; };
+		D8F37C2D2A3751060044F461 /* SDGameDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameDetailHeaderView.swift; sourceTree = "<group>"; };
+		D8F37C2F2A3752790044F461 /* SPGameSettlementRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameSettlementRecordViewModel.swift; sourceTree = "<group>"; };
+		D8F37C312A3752840044F461 /* SPGameSettlementRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameSettlementRecordTableViewCell.swift; sourceTree = "<group>"; };
+		D8F37C332A3760E70044F461 /* SPComplateActionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPComplateActionSheetViewController.swift; sourceTree = "<group>"; };
+		D8F37C352A3773DF0044F461 /* SPGameApealLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameApealLogViewController.swift; sourceTree = "<group>"; };
+		D8F37C372A3773EF0044F461 /* SPGameApealLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameApealLogViewModel.swift; sourceTree = "<group>"; };
+		D8F37C392A3777C80044F461 /* SDGameComplaintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameComplaintViewModel.swift; sourceTree = "<group>"; };
+		D8F37C3B2A3777D20044F461 /* SDGameComplaintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameComplaintTableViewCell.swift; sourceTree = "<group>"; };
+		D8F37C3D2A377CE60044F461 /* SPGameApealDeatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameApealDeatilViewController.swift; sourceTree = "<group>"; };
+		D8F37C3F2A377CF60044F461 /* SPGameApealDeatilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameApealDeatilViewModel.swift; sourceTree = "<group>"; };
+		DC2464882B318914006032F2 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		DC2464892B318915006032F2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		DC24648A2B318915006032F2 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		DC2F77BC2B2C2AF6004060A5 /* YDAESDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAESDataTool.h; sourceTree = "<group>"; };
+		DC2F77BD2B2C2AF6004060A5 /* YDAESDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAESDataTool.m; sourceTree = "<group>"; };
+		DC9D8DD52B2161CF00809048 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
+		DC9D8DD62B2161CF00809048 /* YDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAlertView.h; sourceTree = "<group>"; };
+		DCB7642F2B258248007B5641 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DCBF59372B26D8B600758204 /* YDPushScreenPreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushScreenPreView.h; sourceTree = "<group>"; };
+		DCBF59382B26D8B600758204 /* YDPushScreenPreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushScreenPreView.m; sourceTree = "<group>"; };
+		DE20EEC03D4696FEAF11D1C9 /* Pods_game_wwj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_game_wwj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1781ED6C4540781AEA5F9D /* Pods-game_wwj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-game_wwj.release.xcconfig"; path = "Target Support Files/Pods-game_wwj/Pods-game_wwj.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F158DC2A1E67580054FE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A1CB9B3E73F78D2DB67886 /* Pods_game_wwj.framework in Frameworks */,
+				DCB764302B258248007B5641 /* MediaPlayer.framework in Frameworks */,
+				D88E1ACA2A49DFF500BC8A9F /* Network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CC83FD98C511FA1C7DAC74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				121D5E9D5C9B243C7622DBC1 /* Pods-game_wwj.debug.xcconfig */,
+				DF1781ED6C4540781AEA5F9D /* Pods-game_wwj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C32CAE42B0B3DC700BB808C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4C32CAE92B0B3F6E00BB808C /* ZCNetwork.h */,
+				4C32CAE82B0B3F6D00BB808C /* ZCNetwork.m */,
+				4C32CAEB2B0B404100BB808C /* ZCSaveUserData.h */,
+				4C32CAEC2B0B404100BB808C /* ZCSaveUserData.m */,
+				4C32CAEE2B0B41BC00BB808C /* ZCUserGameService.h */,
+				4C32CAEF2B0B41BC00BB808C /* ZCUserGameService.m */,
+				4CC988AB2B15D19600CFC4B7 /* YDApplePayModule.h */,
+				4CC988AC2B15D19600CFC4B7 /* YDApplePayModule.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4C8A95E02B06F6230014A339 /* Reponse */ = {
+			isa = PBXGroup;
+			children = (
+				4C8A95E42B06F69A0014A339 /* UIResponder+Router.h */,
+				4C8A95E52B06F69A0014A339 /* UIResponder+Router.m */,
+				4C8A95F12B074A710014A339 /* YDSocketConnectService.h */,
+				4C8A95F22B074A710014A339 /* YDSocketConnectService.m */,
+				4C32CAF12B0B4A9B00BB808C /* YDSocketBackData.h */,
+				4C32CAF22B0B4A9B00BB808C /* YDSocketBackData.m */,
+			);
+			path = Reponse;
+			sourceTree = "<group>";
+		};
+		4C8A95F42B0762060014A339 /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				4CC988B82B15EE3B00CFC4B7 /* voice_back.mp3 */,
+				4C8A95F52B07622B0014A339 /* YDPushPullStreamView.h */,
+				4C8A95F62B07622B0014A339 /* YDPushPullStreamView.m */,
+			);
+			path = Stream;
+			sourceTree = "<group>";
+		};
+		4CA5DA312B05B6A600F33916 /* DollMachine */ = {
+			isa = PBXGroup;
+			children = (
+				4CC988992B157D6C00CFC4B7 /* Model */,
+				4C32CAE42B0B3DC700BB808C /* Network */,
+				4C8A95F42B0762060014A339 /* Stream */,
+				4C8A95E02B06F6230014A339 /* Reponse */,
+				4CA5DA332B05B6E700F33916 /* View */,
+				4CA5DA322B05B6E000F33916 /* Controller */,
+			);
+			path = DollMachine;
+			sourceTree = "<group>";
+		};
+		4CA5DA322B05B6E000F33916 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5DA342B05B72400F33916 /* HZPushGameController.h */,
+				4CA5DA352B05B72400F33916 /* HZPushGameController.m */,
+				4CC988C62B17247700CFC4B7 /* YDBaseViewController.h */,
+				4CC988C72B17247700CFC4B7 /* YDBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CA5DA332B05B6E700F33916 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5DA372B05BDB000F33916 /* HZPushUserProfileView.h */,
+				4CA5DA382B05BDB000F33916 /* HZPushUserProfileView.m */,
+				4CA5DA3D2B05C75B00F33916 /* HZUserWalletView.h */,
+				4CA5DA3E2B05C75B00F33916 /* HZUserWalletView.m */,
+				4CC988A22B159A8C00CFC4B7 /* YDPushWalletView.h */,
+				4CC988A32B159A8C00CFC4B7 /* YDPushWalletView.m */,
+				4CA5DA402B060DC400F33916 /* HZPushOpView.h */,
+				4CA5DA412B060DC400F33916 /* HZPushOpView.m */,
+				4CA5DA432B06102E00F33916 /* HZSimpleBtnView.h */,
+				4CA5DA442B06102E00F33916 /* HZSimpleBtnView.m */,
+				4CA5DA462B06181D00F33916 /* HZPushScoreView.h */,
+				4CA5DA472B06181D00F33916 /* HZPushScoreView.m */,
+				4C8A95E72B06F9E30014A339 /* HZPushGameOpView.h */,
+				4C8A95E82B06F9E30014A339 /* HZPushGameOpView.m */,
+				4C8A95EE2B0735F30014A339 /* HZPushPullVideoView.h */,
+				4C8A95EF2B0735F30014A339 /* HZPushPullVideoView.m */,
+				4CC988872B14339B00CFC4B7 /* YDSimpleBaseView.h */,
+				4CC988882B14339B00CFC4B7 /* YDSimpleBaseView.m */,
+				4CC9888A2B143FF700CFC4B7 /* YDPushRechargeAlertView.h */,
+				4CC9888B2B143FF700CFC4B7 /* YDPushRechargeAlertView.m */,
+				4CC988932B1483A900CFC4B7 /* YDPushExchangeAlertView.h */,
+				4CC988942B1483A900CFC4B7 /* YDPushExchangeAlertView.m */,
+				4CC9888D2B14473400CFC4B7 /* YDPushRechargePackCardCell.h */,
+				4CC9888E2B14473400CFC4B7 /* YDPushRechargePackCardCell.m */,
+				4CC988902B14474A00CFC4B7 /* YDPushRechargeItemCardCell.h */,
+				4CC988912B14474A00CFC4B7 /* YDPushRechargeItemCardCell.m */,
+				4CC988962B1483F900CFC4B7 /* YDPushExchangeItemCell.h */,
+				4CC988972B1483F900CFC4B7 /* YDPushExchangeItemCell.m */,
+				4CC988A52B15BFB100CFC4B7 /* YDExchangeAlertView.h */,
+				4CC988A62B15BFB100CFC4B7 /* YDExchangeAlertView.m */,
+				4CC988A82B15C98C00CFC4B7 /* YDExchangeSucView.h */,
+				4CC988A92B15C98C00CFC4B7 /* YDExchangeSucView.m */,
+				4CC988AE2B15D76000CFC4B7 /* YDRechaegeFailView.h */,
+				4CC988AF2B15D76000CFC4B7 /* YDRechaegeFailView.m */,
+				4CC988B52B15E16A00CFC4B7 /* YDPushOffLineView.h */,
+				4CC988B62B15E16A00CFC4B7 /* YDPushOffLineView.m */,
+				4CC988C92B172F6600CFC4B7 /* YDPushTimeOutView.h */,
+				4CC988CA2B172F6600CFC4B7 /* YDPushTimeOutView.m */,
+				4CC989412B19701E00CFC4B7 /* YDPushAlertCoinNoneView.h */,
+				4CC989422B19701E00CFC4B7 /* YDPushAlertCoinNoneView.m */,
+				DCBF59372B26D8B600758204 /* YDPushScreenPreView.h */,
+				DCBF59382B26D8B600758204 /* YDPushScreenPreView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC988992B157D6C00CFC4B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CC9889A2B157D8600CFC4B7 /* YDPushRechargeModel.h */,
+				4CC9889B2B157D8600CFC4B7 /* YDPushRechargeModel.m */,
+				4CC9889D2B157D9500CFC4B7 /* YDPushExchangeModel.h */,
+				4CC9889E2B157D9500CFC4B7 /* YDPushExchangeModel.m */,
+				4CC989532B19DBB100CFC4B7 /* YDSpaceRoomListModel.h */,
+				4CC989542B19DBB100CFC4B7 /* YDSpaceRoomListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CC988BF2B17222200CFC4B7 /* TaskCenter */ = {
+			isa = PBXGroup;
+			children = (
+				4CC988C22B17223700CFC4B7 /* Model */,
+				4CC988C12B17223200CFC4B7 /* View */,
+				4CC988C02B17222B00CFC4B7 /* Controller */,
+			);
+			path = TaskCenter;
+			sourceTree = "<group>";
+		};
+		4CC988C02B17222B00CFC4B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CC988C32B17225700CFC4B7 /* YDTaskCenterController.h */,
+				4CC988C42B17225700CFC4B7 /* YDTaskCenterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CC988C12B17223200CFC4B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC988C22B17223700CFC4B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CC989182B18235500CFC4B7 /* SpaceCenter */ = {
+			isa = PBXGroup;
+			children = (
+				4CC9891E2B18262000CFC4B7 /* Model */,
+				4CC9891D2B18261B00CFC4B7 /* View */,
+				4CC9891C2B18261100CFC4B7 /* Controller */,
+			);
+			path = SpaceCenter;
+			sourceTree = "<group>";
+		};
+		4CC9891C2B18261100CFC4B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CC989192B18238B00CFC4B7 /* YDSpaceCenterController.h */,
+				4CC9891A2B18238B00CFC4B7 /* YDSpaceCenterController.m */,
+				4CC989442B197BD000CFC4B7 /* YDSpaceWorkController.h */,
+				4CC989452B197BD000CFC4B7 /* YDSpaceWorkController.m */,
+				4CC9894A2B197E6000CFC4B7 /* YDSpaceRewardController.h */,
+				4CC9894B2B197E6000CFC4B7 /* YDSpaceRewardController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CC9891D2B18261B00CFC4B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D8DD62B2161CF00809048 /* YDAlertView.h */,
+				DC9D8DD52B2161CF00809048 /* YDAlertView.m */,
+				4C66A2D12B1F0CA6007A3513 /* UIView+Positon.h */,
+				4C66A2D02B1F0CA6007A3513 /* UIView+Positon.m */,
+				4CC9891F2B18263900CFC4B7 /* YDSpaceSimpleStarView.h */,
+				4CC989202B18263900CFC4B7 /* YDSpaceSimpleStarView.m */,
+				4CC989292B18358300CFC4B7 /* YDSpaceCenterStarCell.h */,
+				4CC9892A2B18358300CFC4B7 /* YDSpaceCenterStarCell.m */,
+				4CC9892C2B18374E00CFC4B7 /* YDSpaceStarRoomItemCell.h */,
+				4CC9892D2B18374E00CFC4B7 /* YDSpaceStarRoomItemCell.m */,
+				4CC9892F2B183E1600CFC4B7 /* YDSpaceSideLeftView.h */,
+				4CC989302B183E1600CFC4B7 /* YDSpaceSideLeftView.m */,
+				4CC989322B185A6700CFC4B7 /* YDSpaceUserInfoView.h */,
+				4CC989332B185A6700CFC4B7 /* YDSpaceUserInfoView.m */,
+				4CC989382B185FD700CFC4B7 /* YDSpaceUserWalletView.h */,
+				4CC989392B185FD700CFC4B7 /* YDSpaceUserWalletView.m */,
+				4CC9894D2B19AF6500CFC4B7 /* YDSpaceWorkLevelView.h */,
+				4CC9894E2B19AF6500CFC4B7 /* YDSpaceWorkLevelView.m */,
+				4CC989502B19B8BF00CFC4B7 /* YDSpaceWorkItemCell.h */,
+				4CC989512B19B8BF00CFC4B7 /* YDSpaceWorkItemCell.m */,
+				4C66A2CA2B1DD213007A3513 /* YDSpaceMetalImage.h */,
+				4C66A2CB2B1DD213007A3513 /* YDSpaceMetalImage.m */,
+				4C66A2CD2B1F0B7C007A3513 /* YDSpaceAnimalView.h */,
+				4C66A2CE2B1F0B7C007A3513 /* YDSpaceAnimalView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC9891E2B18262000CFC4B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC24648A2B318915006032F2 /* GTMBase64.h */,
+				DC2464882B318914006032F2 /* GTMBase64.m */,
+				DC2464892B318915006032F2 /* GTMDefines.h */,
+				DC2F77BC2B2C2AF6004060A5 /* YDAESDataTool.h */,
+				DC2F77BD2B2C2AF6004060A5 /* YDAESDataTool.m */,
+				4CC989352B185BD700CFC4B7 /* YDHelpTools.h */,
+				4CC989362B185BD700CFC4B7 /* YDHelpTools.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D80369B12A30A32000163281 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				D80369B22A30A33800163281 /* SPSettingViewController.swift */,
+				D80369B42A30A41E00163281 /* SPSettingViewModel.swift */,
+				D80369B62A30AB4400163281 /* SPSettingCoordinator.swift */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		D80DAC2E2A3D4E4F001BC817 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D80DAC2F2A3D5072001BC817 /* SPExchangeGoldWithDiamondView.swift */,
+				D80DAC332A3D605C001BC817 /* SPExchangeGoldWithPointItemViewModel.swift */,
+				D80DAC352A3D6079001BC817 /* SPExchangeGoldWithPointItemCollectionViewCell.swift */,
+				D80DAC372A3D7AB8001BC817 /* SDExchangeGlodSectionHeaderView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D80DAC432A3E1451001BC817 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D80DAC442A3E1462001BC817 /* SDRankSortView.swift */,
+				D80DAC462A3E1667001BC817 /* SDRankSortUserInfoView.swift */,
+				D80DAC482A3E1A3B001BC817 /* SDRankSortItemViewModel.swift */,
+				D80DAC4A2A3E1A48001BC817 /* SDRankSortItemTableViewCell.swift */,
+				4C8474A02A5698EF008E9767 /* SDRankUserInfoView.swift */,
+				4CC9893D2B18D97E00CFC4B7 /* JsonUtil.swift */,
+				4CC9893F2B18D9AB00CFC4B7 /* BaseModel.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D80DAC4C2A3EB0E3001BC817 /* sign */ = {
+			isa = PBXGroup;
+			children = (
+				D80DAC4D2A3EB131001BC817 /* SDSignViewController.swift */,
+				D80DAC512A3EEFFB001BC817 /* SDSignUnitView.swift */,
+			);
+			path = sign;
+			sourceTree = "<group>";
+		};
+		D80DAC552A3F0456001BC817 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				D80DAC5A2A3F339D001BC817 /* view */,
+				D80DAC562A3F046D001BC817 /* SDGamePageViewController.swift */,
+				D80DAC582A3F047D001BC817 /* SDGamePageViewModel.swift */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		D80DAC5A2A3F339D001BC817 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8193F332A43E4A500FB0DCD /* SDRoomTagView.swift */,
+				D80DAC5B2A3F33B3001BC817 /* SDGameRoomItemViewModel.swift */,
+				D80DAC5D2A3F33C0001BC817 /* SDGameRoomItemCollectionViewCell.swift */,
+				D85848CC2A40979400644FE1 /* SDGameRoomStatusView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8193F352A43EA0F00FB0DCD /* invited */ = {
+			isa = PBXGroup;
+			children = (
+				D8193F362A43EA1F00FB0DCD /* SDInvitedCodeViewController.swift */,
+				D8193F382A43EA3200FB0DCD /* SDInvitedCodeViewModel.swift */,
+				D8193F3A2A444A4C00FB0DCD /* SDInputInviteCodeViewController.swift */,
+			);
+			path = invited;
+			sourceTree = "<group>";
+		};
+		D8193F3D2A44612300FB0DCD /* web */ = {
+			isa = PBXGroup;
+			children = (
+				D8193F3E2A44612300FB0DCD /* SDWebViewController.swift */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		D8193F402A4474C600FB0DCD /* input */ = {
+			isa = PBXGroup;
+			children = (
+				D8193F412A4474D400FB0DCD /* SDInputNameViewController.swift */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		D8193F432A44A32A00FB0DCD /* guid */ = {
+			isa = PBXGroup;
+			children = (
+				D8193F4A2A44ADE300FB0DCD /* view */,
+				D8193F442A44A33C00FB0DCD /* SDGuildViewController.swift */,
+				D8193F462A44A34B00FB0DCD /* SDGuildViewModel.swift */,
+			);
+			path = guid;
+			sourceTree = "<group>";
+		};
+		D8193F4A2A44ADE300FB0DCD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8193F4B2A44ADF600FB0DCD /* SDGameGuidViewModel.swift */,
+				D8193F4D2A44AE0600FB0DCD /* SDGameGuidTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D87A28B72A1F805900DBC1B5 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A2282A48A32000C33FB3 /* SDRTCView.swift */,
+				D87A28B82A1F805900DBC1B5 /* SDRedCloseView.swift */,
+				D87A28B92A1F805900DBC1B5 /* SDEmptyView.swift */,
+				D87A28BA2A1F805900DBC1B5 /* SDAvatarView.swift */,
+				D87A28BB2A1F805900DBC1B5 /* SDImageButton.swift */,
+				D87A28BC2A1F805900DBC1B5 /* SDVerticalImageAndTitleButton.swift */,
+				D87A28BD2A1F805900DBC1B5 /* SDPullFlvView.swift */,
+				D87A28BE2A1F805900DBC1B5 /* BannerView */,
+				D8043B0B2A22EA6200B9D231 /* SPCustomTabbar.swift */,
+				D8043B0D2A22EAD600B9D231 /* SPTabbarViewController.swift */,
+				D8043B0F2A23805400B9D231 /* SPTabbarItemView.swift */,
+				D8D477C42A3216D400F81A05 /* SDNormalBgView.swift */,
+				D8D477CB2A322E5000F81A05 /* SDNormalNavgationBarView.swift */,
+				D8D47E952A38A25D00CE4E8D /* SPTabView.swift */,
+				D8D47E972A38A3CA00CE4E8D /* SDTabItemView.swift */,
+				D8E6056E2A3B57A300885606 /* SPGradientView.swift */,
+				D8463DA22A8E732E0001B061 /* SDButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		D87A28BE2A1F805900DBC1B5 /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28BF2A1F805900DBC1B5 /* BannerView.swift */,
+				D87A28C02A1F805900DBC1B5 /* LoadImageView.swift */,
+				D87A28C12A1F805900DBC1B5 /* BannerView.bundle */,
+				D87A28C22A1F805900DBC1B5 /* BannerVideoViewCell.swift */,
+				D87A28C32A1F805900DBC1B5 /* BannerTool.swift */,
+				D87A28C42A1F805900DBC1B5 /* BannerViewFlowLayout.swift */,
+				D87A28C52A1F805900DBC1B5 /* ZYPlayerView */,
+				D87A28CB2A1F805900DBC1B5 /* Model */,
+				D87A28CD2A1F805900DBC1B5 /* BannerViewCell.swift */,
+				D87A28CE2A1F805900DBC1B5 /* pageControl */,
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		D87A28C52A1F805900DBC1B5 /* ZYPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28C62A1F805900DBC1B5 /* ZYPlayer */,
+				D87A28C92A1F805900DBC1B5 /* PlayerView.bundle */,
+				D87A28CA2A1F805900DBC1B5 /* ZYPlayerView.swift */,
+			);
+			path = ZYPlayerView;
+			sourceTree = "<group>";
+		};
+		D87A28C62A1F805900DBC1B5 /* ZYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28C72A1F805900DBC1B5 /* ZYPlayer.swift */,
+				D87A28C82A1F805900DBC1B5 /* ZYPlayerTool.swift */,
+			);
+			path = ZYPlayer;
+			sourceTree = "<group>";
+		};
+		D87A28CB2A1F805900DBC1B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28CC2A1F805900DBC1B5 /* BannerBaseDataInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D87A28CE2A1F805900DBC1B5 /* pageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28CF2A1F805900DBC1B5 /* PageControl.swift */,
+				D87A28D02A1F805900DBC1B5 /* CyclesView.swift */,
+			);
+			path = pageControl;
+			sourceTree = "<group>";
+		};
+		D87A28D22A1F805900DBC1B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28D72A1F805900DBC1B5 /* api */,
+				D87A28DE2A1F805900DBC1B5 /* client */,
+				D87A28D42A1F805900DBC1B5 /* SDBaseRouter.swift */,
+				D87A28DD2A1F805900DBC1B5 /* SDCustomService.swift */,
+				D87A28D32A1F805900DBC1B5 /* SDHomeService.swift */,
+				D87A28DC2A1F805900DBC1B5 /* SDRechargeService.swift */,
+				D8E3A1BE2A48A14300C33FB3 /* SDTCPClientService.swift */,
+				D87A28D52A1F805900DBC1B5 /* SDUserInfoService.swift */,
+				D87A28DB2A1F805900DBC1B5 /* SDUserManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D87A28D72A1F805900DBC1B5 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28D82A1F805900DBC1B5 /* UserAPIRouter.swift */,
+				D87A28D92A1F805900DBC1B5 /* HomeAPIRouter.swift */,
+				D87A28DA2A1F805900DBC1B5 /* SDRechargeAPIRouter.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		D87A28DE2A1F805900DBC1B5 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A1BC2A48A0F100C33FB3 /* SDTCPClient.swift */,
+				D87A28DF2A1F805900DBC1B5 /* APIClient.swift */,
+				D87A28E12A1F805900DBC1B5 /* SDApplePayClient.swift */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		D87A28E22A1F805900DBC1B5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28E32A1F805900DBC1B5 /* CoordinatorType.swift */,
+				D87A28E42A1F805900DBC1B5 /* ViewModelAttaching.swift */,
+				D87A28E52A1F805900DBC1B5 /* ViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D87A28E62A1F805900DBC1B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28E82A1F805900DBC1B5 /* Byte+Ext.swift */,
+				D87A28E72A1F805900DBC1B5 /* Observable+Ext.swift */,
+				D87A28E92A1F805900DBC1B5 /* String+Ext.swift */,
+				D89B1B602A28B3AF003C62FB /* UIFont+Zhenyan.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D87A28EA2A1F805900DBC1B5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CC989182B18235500CFC4B7 /* SpaceCenter */,
+				4CC988BF2B17222200CFC4B7 /* TaskCenter */,
+				D8E3A1F32A48A24A00C33FB3 /* playGame */,
+				D8193F432A44A32A00FB0DCD /* guid */,
+				D8193F3D2A44612300FB0DCD /* web */,
+				D80DAC552A3F0456001BC817 /* game */,
+				D80DAC4C2A3EB0E3001BC817 /* sign */,
+				D8D3CDB02A2A2D4F0080A743 /* login */,
+				D87A29492A1F883700DBC1B5 /* mine */,
+				D87A29482A1F882B00DBC1B5 /* rank */,
+				D87A29472A1F882200DBC1B5 /* exchange */,
+				D87A29462A1F881B00DBC1B5 /* shop */,
+				D87A29452A1F881400DBC1B5 /* home */,
+				D87A28EB2A1F805900DBC1B5 /* Common */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D87A28EB2A1F805900DBC1B5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D87A28ED2A1F805900DBC1B5 /* AppDefine.swift */,
+				D87A28EE2A1F805900DBC1B5 /* Reusable.swift */,
+				D87A28EF2A1F805900DBC1B5 /* SDPortraitViewController.swift */,
+				D87A28F02A1F805900DBC1B5 /* ErrorTracker.swift */,
+				D87A28F12A1F805900DBC1B5 /* ActivityIndicator.swift */,
+				D87A28F22A1F805900DBC1B5 /* SDTabbarViewDelegate.swift */,
+				D87A28F32A1F805900DBC1B5 /* SDBaseCoordinator.swift */,
+				D87A28F42A1F805900DBC1B5 /* SDCollectionItemType.swift */,
+				D87A28F52A1F805900DBC1B5 /* SDCollectionViewModel.swift */,
+				D87A28F62A1F805900DBC1B5 /* SDTabbarCoordinator.swift */,
+				D8D47E8E2A389EBA00CE4E8D /* SDAlertPortraitViewController.swift */,
+				D8193F4F2A44B97B00FB0DCD /* MediaManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D87A292C2A1F84C400DBC1B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A1C02A48A16C00C33FB3 /* socket */,
+				D87A29302A1F84E700DBC1B5 /* SDAgreementData.swift */,
+				D87A29332A1F84E700DBC1B5 /* SDAppealDollPageData.swift */,
+				D87A29352A1F84E700DBC1B5 /* SDBannerData.swift */,
+				D87A292F2A1F84E700DBC1B5 /* SDChargeTypeInfoData.swift */,
+				D87A29342A1F84E700DBC1B5 /* SDDollLogDetailData.swift */,
+				D87A29312A1F84E700DBC1B5 /* SDDollLogPageData.swift */,
+				D87A29322A1F84E700DBC1B5 /* SDGameLiveRoomData.swift */,
+				D87A292D2A1F84E700DBC1B5 /* SDGameRoomData.swift */,
+				D87A29362A1F84E700DBC1B5 /* SDResponse.swift */,
+				D87A292E2A1F84E700DBC1B5 /* SDUser.swift */,
+				D80DAC312A3D5E3D001BC817 /* SPExchangeGoldWithPointData.swift */,
+				D80DAC3D2A3DF512001BC817 /* SDMemberMoneyLogData.swift */,
+				D80DAC412A3E0CB1001BC817 /* SDSummaryRankPageData.swift */,
+				D80DAC4F2A3EB512001BC817 /* SDSignListData.swift */,
+				D85848CA2A40838100644FE1 /* SDHomeGroupItem.swift */,
+				D8193F482A44A5C200FB0DCD /* SDGameStrategyData.swift */,
+				D807BDE72A66D3E4007D2AA8 /* SDAppleOrderData.swift */,
+				D8276C9F2A93B01F0057B591 /* SDGameRuleModalData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D87A29452A1F881400DBC1B5 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				D8E089A52A2625F700CBC99C /* view */,
+				D87A294A2A1F88D800DBC1B5 /* SDHomeCoordinator.swift */,
+				D87A29502A1F903500DBC1B5 /* SDHomeViewController.swift */,
+				D87A29522A1F905600DBC1B5 /* SDHomeViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		D87A29462A1F881B00DBC1B5 /* shop */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F86A2A39E44E00272FC7 /* view */,
+				D8043AF12A21D13900B9D231 /* SPShopCoordinator.swift */,
+				D8043AF32A21D14F00B9D231 /* SDShopViewController.swift */,
+				D8043AF52A21D16600B9D231 /* SDShopViewModel.swift */,
+				D80DAC282A3D347F001BC817 /* SPPayWebViewController.swift */,
+				D8193F532A44C94300FB0DCD /* SDAlertShopViewController.swift */,
+			);
+			path = shop;
+			sourceTree = "<group>";
+		};
+		D87A29472A1F882200DBC1B5 /* exchange */ = {
+			isa = PBXGroup;
+			children = (
+				D80DAC2E2A3D4E4F001BC817 /* view */,
+				D8043AFB2A21D95700B9D231 /* SPExchangeCoordinator.swift */,
+				D8043AFD2A21D97600B9D231 /* SPExchangeViewModel.swift */,
+				D8043AFF2A21D99A00B9D231 /* SPExchangeViewController.swift */,
+				D80DAC392A3DE5F7001BC817 /* SDExchangeGoldWithPointViewController.swift */,
+				D80DAC3B2A3DF0DD001BC817 /* SDExchangeGoldWithPointSuccessViewController.swift */,
+				D8BBAC022A8D0F1E00FFF1A2 /* SDSimpleResultAlertViewController.swift */,
+			);
+			path = exchange;
+			sourceTree = "<group>";
+		};
+		D87A29482A1F882B00DBC1B5 /* rank */ = {
+			isa = PBXGroup;
+			children = (
+				D80DAC432A3E1451001BC817 /* view */,
+				D8CF5CB72A1FB12500BF487A /* SDRankCoordinator.swift */,
+				D8CF5CB92A1FB14A00BF487A /* SDRankViewController.swift */,
+				D8CF5CBB2A1FB15A00BF487A /* SDRankViewModel.swift */,
+			);
+			path = rank;
+			sourceTree = "<group>";
+		};
+		D87A29492A1F883700DBC1B5 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				D8193F402A4474C600FB0DCD /* input */,
+				D8193F352A43EA0F00FB0DCD /* invited */,
+				D8D47E902A38A06200CE4E8D /* record */,
+				D80369B12A30A32000163281 /* setting */,
+				D8CFCC422A2F8BFA009B6579 /* gameLog */,
+				D8CFCC412A2F8BED009B6579 /* index */,
+				D8CF84B92A2F546D0006EC32 /* authentication */,
+				D8D3CDC42A2C3B850080A743 /* view */,
+				D8CF5CB12A1FAF7000BF487A /* SDMineCoordinator.swift */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		D8CF84B92A2F546D0006EC32 /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D8CF84BA2A2F55410006EC32 /* SDAuthenticationViewController.swift */,
+				D8CF84BC2A2F55690006EC32 /* SDAuthenticationViewModel.swift */,
+			);
+			path = authentication;
+			sourceTree = "<group>";
+		};
+		D8CFCC412A2F8BED009B6579 /* index */ = {
+			isa = PBXGroup;
+			children = (
+				D8CF5CB32A1FAF8E00BF487A /* SDMineViewController.swift */,
+				D8CF5CB52A1FAFBC00BF487A /* SDMineViewModel.swift */,
+			);
+			path = index;
+			sourceTree = "<group>";
+		};
+		D8CFCC422A2F8BFA009B6579 /* gameLog */ = {
+			isa = PBXGroup;
+			children = (
+				D8D477C62A32197700F81A05 /* view */,
+				D8CFCC432A2F8CEA009B6579 /* SDGameLogViewController.swift */,
+				D8CFCC452A2F8D00009B6579 /* SDGameLogViewModel.swift */,
+				D800EC442A33F22000DBD97D /* SPGameLogDetailViewModel.swift */,
+				D800EC462A33F25A00DBD97D /* SPGameLogDetailViewController.swift */,
+				D8F37C332A3760E70044F461 /* SPComplateActionSheetViewController.swift */,
+				D8F37C352A3773DF0044F461 /* SPGameApealLogViewController.swift */,
+				D8F37C372A3773EF0044F461 /* SPGameApealLogViewModel.swift */,
+				D8F37C3D2A377CE60044F461 /* SPGameApealDeatilViewController.swift */,
+				D8F37C3F2A377CF60044F461 /* SPGameApealDeatilViewModel.swift */,
+			);
+			path = gameLog;
+			sourceTree = "<group>";
+		};
+		D8D3CDB02A2A2D4F0080A743 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3CDBC2A2AC69F0080A743 /* phoneLogin */,
+				D8D3CDBB2A2AC6860080A743 /* guidLogin */,
+				D8D3CDB82A2A48900080A743 /* view */,
+				D8D3CDB12A2A2D640080A743 /* SDLoginCoordinator.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		D8D3CDB72A2A2E8A0080A743 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D87A29422A1F853B00DBC1B5 /* AppCoordinator.swift */,
+				D87A29412A1F853B00DBC1B5 /* AppDependency.swift */,
+				D8F158E22A1E67580054FE46 /* AppDelegate.swift */,
+				D8F158E42A1E67580054FE46 /* SceneDelegate.swift */,
+				4CC988BD2B16DDF600CFC4B7 /* YDScreenController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D8D3CDB82A2A48900080A743 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3CDB92A2A48A80080A743 /* SDBgImageButton.swift */,
+				D8D3CDC12A2B1D530080A743 /* SDInvitationCodeButton.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8D3CDBB2A2AC6860080A743 /* guidLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3CDB32A2A2D720080A743 /* SDLoginViewController.swift */,
+				D8D3CDB52A2A2D7F0080A743 /* SDLoginViewModel.swift */,
+			);
+			path = guidLogin;
+			sourceTree = "<group>";
+		};
+		D8D3CDBC2A2AC69F0080A743 /* phoneLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3CDBD2A2AC6B80080A743 /* SDLoginByPhoneViewController.swift */,
+				D8D3CDBF2A2AC6C90080A743 /* SDLoginByPhoneViewModel.swift */,
+			);
+			path = phoneLogin;
+			sourceTree = "<group>";
+		};
+		D8D3CDC42A2C3B850080A743 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3CDC52A2C3BA20080A743 /* SPMemberTopInfoView.swift */,
+				D8EA205D2A2E243600790FD8 /* SPMineCellModel.swift */,
+				D8EA205F2A2E244600790FD8 /* SPMineTableViewCell.swift */,
+				D8CF84B72A2F4C980006EC32 /* SPAuthenticationMineCellModel.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8D477C62A32197700F81A05 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8D477C72A3219CD00F81A05 /* SDGameLogItemModel.swift */,
+				D8D477C82A3219CD00F81A05 /* SDGameLogItemTableViewCell.swift */,
+				D8F37C2B2A374D6F0044F461 /* SPGameDetailCell.swift */,
+				D8F37C2D2A3751060044F461 /* SDGameDetailHeaderView.swift */,
+				D8F37C2F2A3752790044F461 /* SPGameSettlementRecordViewModel.swift */,
+				D8F37C312A3752840044F461 /* SPGameSettlementRecordTableViewCell.swift */,
+				D8F37C392A3777C80044F461 /* SDGameComplaintViewModel.swift */,
+				D8F37C3B2A3777D20044F461 /* SDGameComplaintTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8D47E902A38A06200CE4E8D /* record */ = {
+			isa = PBXGroup;
+			children = (
+				D8D47E992A38AE7000CE4E8D /* view */,
+				D8D47E912A38A07900CE4E8D /* SRrecordViewController.swift */,
+				D8D47E932A38A09000CE4E8D /* SRrecordViewModel.swift */,
+			);
+			path = record;
+			sourceTree = "<group>";
+		};
+		D8D47E992A38AE7000CE4E8D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8D47E9A2A38AEA400CE4E8D /* SPLineTabView.swift */,
+				D8D47E9C2A38AEBA00CE4E8D /* SPLineTabItemView.swift */,
+				D8D47E9E2A38B2AB00CE4E8D /* SPRecordItemViewModel.swift */,
+				D8D47EA02A38B2BA00CE4E8D /* SPRecordItemTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8D7F86A2A39E44E00272FC7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F86B2A39E4AA00272FC7 /* SPRechargeItemViewModel.swift */,
+				D8D7F86D2A39E4ED00272FC7 /* SPRechargeItemCollectionViewCell.swift */,
+				D8D365512A3A05B300E7AC34 /* SPRechargeItemForCardCollectionViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8E089A52A2625F700CBC99C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8E089A32A2625F000CBC99C /* SDAuthInfoView.swift */,
+				D8D949532A27858C00924C2A /* SPLevelProcessView.swift */,
+				D8D949552A278A9F00924C2A /* SPLevelProcessBgView.swift */,
+				D8DBA3672A279C3B00BC1C80 /* SDTipLevelInfoView.swift */,
+				D8DBA3692A27A2E200BC1C80 /* SDBankUnitView.swift */,
+				D89B1B622A28BF0E003C62FB /* SDHomeGameContentView.swift */,
+				D83738F42A28C3A7009299D6 /* SDGameFuncGuidButton.swift */,
+				D8D2DB232A28F1D200A6947C /* SDBannerDataModel.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8E3A1C02A48A16C00C33FB3 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A1C12A48A16C00C33FB3 /* SDTcpStartResponse.swift */,
+				D8E3A1C22A48A16C00C33FB3 /* SDBaseTcpData.swift */,
+				D8E3A1C32A48A16C00C33FB3 /* SDTcpOperateResponse.swift */,
+				D8E3A1C42A48A16C00C33FB3 /* SDTcpOtherGrabResponse.swift */,
+				D8E3A1C52A48A16C00C33FB3 /* SDTcpAppointmentPlayResponse.swift */,
+				D8E3A1C62A48A16C00C33FB3 /* SDTcpResponse.swift */,
+				D8E3A1C72A48A16C00C33FB3 /* SDTcpGameUrlResponse.swift */,
+				D8E3A1C82A48A16C00C33FB3 /* SDTcpConnectedResponse.swift */,
+				D8E3A1C92A48A16C00C33FB3 /* SDTcpAppointmentChangeResponse.swift */,
+				D8E3A1CA2A48A16C00C33FB3 /* SDTcpSendSaintPostionData.swift */,
+				D8E3A1CB2A48A16C00C33FB3 /* SDTcpSendTcpData.swift */,
+				D8E3A1CC2A48A16C00C33FB3 /* SDTcpArcadeCoinResponse.swift */,
+				D8E3A1CD2A48A16C00C33FB3 /* SDTcpSettlementResponse.swift */,
+				D8E3A1CE2A48A16C00C33FB3 /* SDTcpGrapResponse.swift */,
+				D8E3A1CF2A48A16C00C33FB3 /* SDTcpSystemResponse.swift */,
+				D8E3A1D02A48A16C00C33FB3 /* SDTcpSendSaintData.swift */,
+				D8E3A1D12A48A16C00C33FB3 /* SDTcpPushCoinResponse.swift */,
+				D8E3A1D22A48A16C00C33FB3 /* SDTcpSendSaintMoveDirctionData.swift */,
+				D8E3A1D32A48A16C00C33FB3 /* SDTcpConnectData.swift */,
+				D8E3A1D42A48A16C00C33FB3 /* SDTcpSendSaintCoinData.swift */,
+				D8E3A1D52A48A16C00C33FB3 /* SDTcpTextMessageResponse.swift */,
+				D8E3A1D62A48A16C00C33FB3 /* SDTcpStatusResponse.swift */,
+				D8E3A1D72A48A16C00C33FB3 /* SDTcpSendSaintLeaveData.swift */,
+				D8E3A1D82A48A16C00C33FB3 /* SDTcpHeartData.swift */,
+				D8E3A1D92A48A16C00C33FB3 /* SDTcpAppointmentResponse.swift */,
+			);
+			path = socket;
+			sourceTree = "<group>";
+		};
+		D8E3A1F32A48A24A00C33FB3 /* playGame */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5DA312B05B6A600F33916 /* DollMachine */,
+				D8EB4AE52A69885300C7637E /* exchange */,
+				D8E3A1F72A48A24A00C33FB3 /* alert */,
+				D8E3A1FB2A48A24A00C33FB3 /* recharge */,
+				D8E3A1F42A48A24A00C33FB3 /* SDArcadeGameViewController.swift */,
+				D8E3A2022A48A24A00C33FB3 /* SDBaseGameViewController.swift */,
+				D8E3A1FA2A48A24A00C33FB3 /* SDGameDefineInfo.swift */,
+				D8E3A1F52A48A24A00C33FB3 /* SDGameViewModel.swift */,
+				D8E3A1F62A48A24A00C33FB3 /* SDTcpSocketSendDataUtils.swift */,
+				D8E3A2032A48A24A00C33FB3 /* view */,
+			);
+			path = playGame;
+			sourceTree = "<group>";
+		};
+		D8E3A1F72A48A24A00C33FB3 /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A1F82A48A24A00C33FB3 /* SDSettlementResultAlertContentView.swift */,
+				D8E3A1F92A48A24A00C33FB3 /* SDGameAlertViewController.swift */,
+			);
+			path = alert;
+			sourceTree = "<group>";
+		};
+		D8E3A1FB2A48A24A00C33FB3 /* recharge */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A2012A48A24A00C33FB3 /* SDRechargeInGameAlertViewController.swift */,
+				D8E3A1FC2A48A24A00C33FB3 /* SDRechargeInGameAlertViewModel.swift */,
+				D8E3A2002A48A24A00C33FB3 /* SDRechargeViewController.swift */,
+				D8E3A1FD2A48A24A00C33FB3 /* view */,
+			);
+			path = recharge;
+			sourceTree = "<group>";
+		};
+		D8E3A1FD2A48A24A00C33FB3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A1FE2A48A24A00C33FB3 /* SDRechargeUnitCollectionViewCell.swift */,
+				D8E3A1FF2A48A24A00C33FB3 /* SDRechargeUnitCollectionData.swift */,
+				4C8474A22A57F124008E9767 /* SDRechargeAlertMoneyUnitView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8E3A2032A48A24A00C33FB3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8E3A2042A48A24A00C33FB3 /* SDFoldingAvatarView.swift */,
+				D8E3A2052A48A24A00C33FB3 /* SDGameVideoView.swift */,
+				D8E3A2062A48A24A00C33FB3 /* SDCurrentSeatPlayerView.swift */,
+				D8E3A2072A48A24A00C33FB3 /* SDSeatPlayersView.swift */,
+				D8E3A2082A48A24A00C33FB3 /* SDSettlementSeatPlayerView.swift */,
+				D8E3A2092A48A24A00C33FB3 /* SDSeatGameActionView.swift */,
+				D8E3A20A2A48A24A00C33FB3 /* SDAwaitSeatBtView.swift */,
+				D8E3A20B2A48A24A00C33FB3 /* SDSeatPlayerView.swift */,
+				D8E3A20C2A48A24A00C33FB3 /* SDArcadeGameControllView.swift */,
+				D8E3A20D2A48A24A00C33FB3 /* SDArcadeOnlookerPlayersView.swift */,
+				D8E3A20E2A48A24A00C33FB3 /* SDSeatGameDirectionControlView.swift */,
+				D8E3A20F2A48A24A00C33FB3 /* SDGameMoneyView.swift */,
+				D863886A2A682E5200D057F1 /* SDInGameOtherFucButton.swift */,
+				D8BC96A72A69502000C0F4E1 /* SDGameInFuncListView.swift */,
+				D8276CA12A93BD050057B591 /* SDGameTagView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8EB4AE52A69885300C7637E /* exchange */ = {
+			isa = PBXGroup;
+			children = (
+				D8EB4AE62A69886E00C7637E /* SDExchangeInGameAlertViewController.swift */,
+			);
+			path = exchange;
+			sourceTree = "<group>";
+		};
+		D8F158D62A1E67580054FE46 = {
+			isa = PBXGroup;
+			children = (
+				D8F158E12A1E67580054FE46 /* game_wwj */,
+				D8F158E02A1E67580054FE46 /* Products */,
+				16CC83FD98C511FA1C7DAC74 /* Pods */,
+				DABEA55A0E6396F17011C35C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F158E02A1E67580054FE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F158DF2A1E67580054FE46 /* game_wwj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F158E12A1E67580054FE46 /* game_wwj */ = {
+			isa = PBXGroup;
+			children = (
+				D8D47E8D2A389D8700CE4E8D /* game_wwj.entitlements */,
+				D8D3CDB72A2A2E8A0080A743 /* Application */,
+				D89B1B5E2A28AE27003C62FB /* ZhenyanGB.ttf */,
+				D8043B0A2A22382E00B9D231 /* gamewwj-Bridging-Header.h */,
+				D87A292C2A1F84C400DBC1B5 /* Model */,
+				D87A28B72A1F805900DBC1B5 /* components */,
+				D87A28E62A1F805900DBC1B5 /* Extensions */,
+				D87A28E22A1F805900DBC1B5 /* Protocols */,
+				D87A28EA2A1F805900DBC1B5 /* Scenes */,
+				D87A28D22A1F805900DBC1B5 /* Services */,
+				D8F158E82A1E67580054FE46 /* Main.storyboard */,
+				D8F158EB2A1E67590054FE46 /* Assets.xcassets */,
+				D8F158ED2A1E67590054FE46 /* LaunchScreen.storyboard */,
+				D8F158F02A1E67590054FE46 /* Info.plist */,
+			);
+			path = game_wwj;
+			sourceTree = "<group>";
+		};
+		DABEA55A0E6396F17011C35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB7642F2B258248007B5641 /* MediaPlayer.framework */,
+				D88E1AC92A49DFF500BC8A9F /* Network.framework */,
+				DE20EEC03D4696FEAF11D1C9 /* Pods_game_wwj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F158DE2A1E67580054FE46 /* game_wwj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F158F32A1E67590054FE46 /* Build configuration list for PBXNativeTarget "game_wwj" */;
+			buildPhases = (
+				CD2879D73248CF7166D0EFD5 /* [CP] Check Pods Manifest.lock */,
+				D8F158DB2A1E67580054FE46 /* Sources */,
+				D8F158DC2A1E67580054FE46 /* Frameworks */,
+				D8F158DD2A1E67580054FE46 /* Resources */,
+				30DBE6606EB0CCF30BF570C9 /* [CP] Embed Pods Frameworks */,
+				2D01BFECAD4873131DDAC626 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = game_wwj;
+			productName = game_wwj;
+			productReference = D8F158DF2A1E67580054FE46 /* game_wwj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F158D72A1E67580054FE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D8F158DE2A1E67580054FE46 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = D8F158DA2A1E67580054FE46 /* Build configuration list for PBXProject "game_wwj" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F158D62A1E67580054FE46;
+			productRefGroup = D8F158E02A1E67580054FE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F158DE2A1E67580054FE46 /* game_wwj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F158DD2A1E67580054FE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F158EF2A1E67590054FE46 /* LaunchScreen.storyboard in Resources */,
+				D8F158EC2A1E67590054FE46 /* Assets.xcassets in Resources */,
+				D87A28FF2A1F805900DBC1B5 /* BannerView.bundle in Resources */,
+				D87A29052A1F805900DBC1B5 /* PlayerView.bundle in Resources */,
+				4CC988B92B15EE3B00CFC4B7 /* voice_back.mp3 in Resources */,
+				D89B1B5F2A28AE27003C62FB /* ZhenyanGB.ttf in Resources */,
+				D8F158EA2A1E67580054FE46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D01BFECAD4873131DDAC626 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30DBE6606EB0CCF30BF570C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2879D73248CF7166D0EFD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-game_wwj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F158DB2A1E67580054FE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87A28FD2A1F805900DBC1B5 /* BannerView.swift in Sources */,
+				D863886B2A682E5200D057F1 /* SDInGameOtherFucButton.swift in Sources */,
+				4CC9894C2B197E6000CFC4B7 /* YDSpaceRewardController.m in Sources */,
+				4CC9891B2B18238B00CFC4B7 /* YDSpaceCenterController.m in Sources */,
+				D8CF5CB42A1FAF8E00BF487A /* SDMineViewController.swift in Sources */,
+				D8CF5CBC2A1FB15A00BF487A /* SDRankViewModel.swift in Sources */,
+				4CC989212B18263900CFC4B7 /* YDSpaceSimpleStarView.m in Sources */,
+				D87A28F92A1F805900DBC1B5 /* SDAvatarView.swift in Sources */,
+				D8E3A21A2A48A24A00C33FB3 /* SDRechargeInGameAlertViewController.swift in Sources */,
+				4CC989312B183E1600CFC4B7 /* YDSpaceSideLeftView.m in Sources */,
+				D8DBA3682A279C3B00BC1C80 /* SDTipLevelInfoView.swift in Sources */,
+				D8193F4E2A44AE0600FB0DCD /* SDGameGuidTableViewCell.swift in Sources */,
+				D8D47E9B2A38AEA400CE4E8D /* SPLineTabView.swift in Sources */,
+				D87A28FE2A1F805900DBC1B5 /* LoadImageView.swift in Sources */,
+				D8EA205E2A2E243600790FD8 /* SPMineCellModel.swift in Sources */,
+				D8CF5CB82A1FB12500BF487A /* SDRankCoordinator.swift in Sources */,
+				D8E3A21F2A48A24A00C33FB3 /* SDSeatPlayersView.swift in Sources */,
+				D80DAC382A3D7AB8001BC817 /* SDExchangeGlodSectionHeaderView.swift in Sources */,
+				D8043AFE2A21D97600B9D231 /* SPExchangeViewModel.swift in Sources */,
+				D8193F422A4474D400FB0DCD /* SDInputNameViewController.swift in Sources */,
+				D87A29512A1F903600DBC1B5 /* SDHomeViewController.swift in Sources */,
+				4C32CAEA2B0B3F6E00BB808C /* ZCNetwork.m in Sources */,
+				D80369B52A30A41E00163281 /* SPSettingViewModel.swift in Sources */,
+				D87A29162A1F805900DBC1B5 /* APIClient.swift in Sources */,
+				D8E3A1EC2A48A16C00C33FB3 /* SDTcpConnectData.swift in Sources */,
+				D8043B0E2A22EAD600B9D231 /* SPTabbarViewController.swift in Sources */,
+				D87A29432A1F853B00DBC1B5 /* AppDependency.swift in Sources */,
+				D8E3A1F12A48A16C00C33FB3 /* SDTcpHeartData.swift in Sources */,
+				D87A29022A1F805900DBC1B5 /* BannerViewFlowLayout.swift in Sources */,
+				D87A29262A1F805900DBC1B5 /* SDBaseCoordinator.swift in Sources */,
+				D87A29032A1F805900DBC1B5 /* ZYPlayer.swift in Sources */,
+				DCBF59392B26D8B600758204 /* YDPushScreenPreView.m in Sources */,
+				4C66A2CC2B1DD213007A3513 /* YDSpaceMetalImage.m in Sources */,
+				D8043AFC2A21D95700B9D231 /* SPExchangeCoordinator.swift in Sources */,
+				D8193F452A44A33C00FB0DCD /* SDGuildViewController.swift in Sources */,
+				D8F37C3E2A377CE60044F461 /* SPGameApealDeatilViewController.swift in Sources */,
+				D87A294B2A1F88D800DBC1B5 /* SDHomeCoordinator.swift in Sources */,
+				D87A293A2A1F84E700DBC1B5 /* SDAgreementData.swift in Sources */,
+				D8CF84BB2A2F55410006EC32 /* SDAuthenticationViewController.swift in Sources */,
+				D8E3A2122A48A24A00C33FB3 /* SDTcpSocketSendDataUtils.swift in Sources */,
+				D8D47E982A38A3CA00CE4E8D /* SDTabItemView.swift in Sources */,
+				D8D477CA2A3219CD00F81A05 /* SDGameLogItemTableViewCell.swift in Sources */,
+				4CC988982B1483F900CFC4B7 /* YDPushExchangeItemCell.m in Sources */,
+				4CC9894F2B19AF6500CFC4B7 /* YDSpaceWorkLevelView.m in Sources */,
+				D87A290E2A1F805900DBC1B5 /* SDUserInfoService.swift in Sources */,
+				D8D3CDB42A2A2D720080A743 /* SDLoginViewController.swift in Sources */,
+				D8E3A2232A48A24A00C33FB3 /* SDSeatPlayerView.swift in Sources */,
+				D8D3CDB62A2A2D7F0080A743 /* SDLoginViewModel.swift in Sources */,
+				D8D47E942A38A09000CE4E8D /* SRrecordViewModel.swift in Sources */,
+				D80DAC572A3F046D001BC817 /* SDGamePageViewController.swift in Sources */,
+				D87A29222A1F805900DBC1B5 /* SDPortraitViewController.swift in Sources */,
+				D8E3A21E2A48A24A00C33FB3 /* SDCurrentSeatPlayerView.swift in Sources */,
+				D8E3A2152A48A24A00C33FB3 /* SDGameDefineInfo.swift in Sources */,
+				D87A291D2A1F805900DBC1B5 /* Byte+Ext.swift in Sources */,
+				4CC9892B2B18358300CFC4B7 /* YDSpaceCenterStarCell.m in Sources */,
+				D8E3A1DC2A48A16C00C33FB3 /* SDTcpOperateResponse.swift in Sources */,
+				D8F37C302A3752790044F461 /* SPGameSettlementRecordViewModel.swift in Sources */,
+				D87A29402A1F84E700DBC1B5 /* SDResponse.swift in Sources */,
+				4C32CAED2B0B404100BB808C /* ZCSaveUserData.m in Sources */,
+				D8CF84BD2A2F55690006EC32 /* SDAuthenticationViewModel.swift in Sources */,
+				4C66A2D22B1F0CA6007A3513 /* UIView+Positon.m in Sources */,
+				D80DAC4B2A3E1A48001BC817 /* SDRankSortItemTableViewCell.swift in Sources */,
+				D8043B102A23805400B9D231 /* SPTabbarItemView.swift in Sources */,
+				D8D7F86E2A39E4ED00272FC7 /* SPRechargeItemCollectionViewCell.swift in Sources */,
+				D8E3A2112A48A24A00C33FB3 /* SDGameViewModel.swift in Sources */,
+				D87A29002A1F805900DBC1B5 /* BannerVideoViewCell.swift in Sources */,
+				4CC989432B19701E00CFC4B7 /* YDPushAlertCoinNoneView.m in Sources */,
+				D8193F392A43EA3200FB0DCD /* SDInvitedCodeViewModel.swift in Sources */,
+				D87A29062A1F805900DBC1B5 /* ZYPlayerView.swift in Sources */,
+				D8E3A1E52A48A16C00C33FB3 /* SDTcpArcadeCoinResponse.swift in Sources */,
+				DC2F77BE2B2C2AF6004060A5 /* YDAESDataTool.m in Sources */,
+				D8276CA02A93B01F0057B591 /* SDGameRuleModalData.swift in Sources */,
+				D8E3A2242A48A24A00C33FB3 /* SDArcadeGameControllView.swift in Sources */,
+				4C32CAF02B0B41BC00BB808C /* ZCUserGameService.m in Sources */,
+				4CA5DA482B06181D00F33916 /* HZPushScoreView.m in Sources */,
+				D8463DA32A8E732E0001B061 /* SDButton.swift in Sources */,
+				D8193F342A43E4A500FB0DCD /* SDRoomTagView.swift in Sources */,
+				D8E3A21D2A48A24A00C33FB3 /* SDGameVideoView.swift in Sources */,
+				D8CFCC442A2F8CEA009B6579 /* SDGameLogViewController.swift in Sources */,
+				D8D3CDBE2A2AC6B80080A743 /* SDLoginByPhoneViewController.swift in Sources */,
+				D87A29372A1F84E700DBC1B5 /* SDGameRoomData.swift in Sources */,
+				D8E3A2162A48A24A00C33FB3 /* SDRechargeInGameAlertViewModel.swift in Sources */,
+				4CC988922B14474A00CFC4B7 /* YDPushRechargeItemCardCell.m in Sources */,
+				D8E089A42A2625F000CBC99C /* SDAuthInfoView.swift in Sources */,
+				D8193F472A44A34B00FB0DCD /* SDGuildViewModel.swift in Sources */,
+				D87A29212A1F805900DBC1B5 /* Reusable.swift in Sources */,
+				D8E3A2142A48A24A00C33FB3 /* SDGameAlertViewController.swift in Sources */,
+				4CC988952B1483A900CFC4B7 /* YDPushExchangeAlertView.m in Sources */,
+				D8193F3F2A44612300FB0DCD /* SDWebViewController.swift in Sources */,
+				D87A293E2A1F84E700DBC1B5 /* SDDollLogDetailData.swift in Sources */,
+				D8E3A1EF2A48A16C00C33FB3 /* SDTcpStatusResponse.swift in Sources */,
+				D80DAC592A3F047D001BC817 /* SDGamePageViewModel.swift in Sources */,
+				D8E3A1E62A48A16C00C33FB3 /* SDTcpSettlementResponse.swift in Sources */,
+				D89B1B632A28BF0E003C62FB /* SDHomeGameContentView.swift in Sources */,
+				D8E3A2172A48A24A00C33FB3 /* SDRechargeUnitCollectionViewCell.swift in Sources */,
+				D8E3A1DE2A48A16C00C33FB3 /* SDTcpAppointmentPlayResponse.swift in Sources */,
+				D87A29442A1F853B00DBC1B5 /* AppCoordinator.swift in Sources */,
+				4CC989372B185BD700CFC4B7 /* YDHelpTools.m in Sources */,
+				D8E3A2102A48A24A00C33FB3 /* SDArcadeGameViewController.swift in Sources */,
+				D8E3A1E12A48A16C00C33FB3 /* SDTcpConnectedResponse.swift in Sources */,
+				4CC988AD2B15D19600CFC4B7 /* YDApplePayModule.m in Sources */,
+				4C8A95F32B074A710014A339 /* YDSocketConnectService.m in Sources */,
+				D8E3A1DF2A48A16C00C33FB3 /* SDTcpResponse.swift in Sources */,
+				D8EA20602A2E244600790FD8 /* SPMineTableViewCell.swift in Sources */,
+				D8D47E8F2A389EBA00CE4E8D /* SDAlertPortraitViewController.swift in Sources */,
+				D800EC472A33F25A00DBD97D /* SPGameLogDetailViewController.swift in Sources */,
+				D8CF5CB22A1FAF7000BF487A /* SDMineCoordinator.swift in Sources */,
+				4CC989462B197BD000CFC4B7 /* YDSpaceWorkController.m in Sources */,
+				D87A29012A1F805900DBC1B5 /* BannerTool.swift in Sources */,
+				D80DAC5E2A3F33C0001BC817 /* SDGameRoomItemCollectionViewCell.swift in Sources */,
+				D8E3A1E32A48A16C00C33FB3 /* SDTcpSendSaintPostionData.swift in Sources */,
+				4C32CAF32B0B4A9B00BB808C /* YDSocketBackData.m in Sources */,
+				D8CF84B82A2F4C980006EC32 /* SPAuthenticationMineCellModel.swift in Sources */,
+				D8F158E32A1E67580054FE46 /* AppDelegate.swift in Sources */,
+				4CC988C52B17225700CFC4B7 /* YDTaskCenterController.m in Sources */,
+				DC24648B2B318915006032F2 /* GTMBase64.m in Sources */,
+				4C66A2CF2B1F0B7C007A3513 /* YDSpaceAnimalView.m in Sources */,
+				D807BDE82A66D3E4007D2AA8 /* SDAppleOrderData.swift in Sources */,
+				D87A293F2A1F84E700DBC1B5 /* SDBannerData.swift in Sources */,
+				D87A290A2A1F805900DBC1B5 /* CyclesView.swift in Sources */,
+				D80DAC472A3E1667001BC817 /* SDRankSortUserInfoView.swift in Sources */,
+				D83738F52A28C3A7009299D6 /* SDGameFuncGuidButton.swift in Sources */,
+				D87A29192A1F805900DBC1B5 /* CoordinatorType.swift in Sources */,
+				D8D3CDC62A2C3BA20080A743 /* SPMemberTopInfoView.swift in Sources */,
+				D8E3A2262A48A24A00C33FB3 /* SDSeatGameDirectionControlView.swift in Sources */,
+				D80DAC3C2A3DF0DD001BC817 /* SDExchangeGoldWithPointSuccessViewController.swift in Sources */,
+				4CC988892B14339B00CFC4B7 /* YDSimpleBaseView.m in Sources */,
+				DC9D8DD72B2161CF00809048 /* YDAlertView.m in Sources */,
+				4CC988C82B17247700CFC4B7 /* YDBaseViewController.m in Sources */,
+				D8E3A1E82A48A16C00C33FB3 /* SDTcpSystemResponse.swift in Sources */,
+				D80DAC492A3E1A3C001BC817 /* SDRankSortItemViewModel.swift in Sources */,
+				D8F37C402A377CF60044F461 /* SPGameApealDeatilViewModel.swift in Sources */,
+				D8F37C342A3760E70044F461 /* SPComplateActionSheetViewController.swift in Sources */,
+				D8043B0C2A22EA6200B9D231 /* SPCustomTabbar.swift in Sources */,
+				4CC9888F2B14473400CFC4B7 /* YDPushRechargePackCardCell.m in Sources */,
+				D8E3A1DA2A48A16C00C33FB3 /* SDTcpStartResponse.swift in Sources */,
+				D8E3A2192A48A24A00C33FB3 /* SDRechargeViewController.swift in Sources */,
+				D8E3A2272A48A24A00C33FB3 /* SDGameMoneyView.swift in Sources */,
+				D87A29092A1F805900DBC1B5 /* PageControl.swift in Sources */,
+				D8CF5CB62A1FAFBC00BF487A /* SDMineViewModel.swift in Sources */,
+				D8193F492A44A5C200FB0DCD /* SDGameStrategyData.swift in Sources */,
+				D8043B002A21D99A00B9D231 /* SPExchangeViewController.swift in Sources */,
+				D87A291C2A1F805900DBC1B5 /* Observable+Ext.swift in Sources */,
+				D8F37C362A3773DF0044F461 /* SPGameApealLogViewController.swift in Sources */,
+				D87A29242A1F805900DBC1B5 /* ActivityIndicator.swift in Sources */,
+				4CC989402B18D9AB00CFC4B7 /* BaseModel.swift in Sources */,
+				D8E3A1F22A48A16C00C33FB3 /* SDTcpAppointmentResponse.swift in Sources */,
+				D8E6056F2A3B57A300885606 /* SPGradientView.swift in Sources */,
+				D8E3A2252A48A24A00C33FB3 /* SDArcadeOnlookerPlayersView.swift in Sources */,
+				D8D3CDC22A2B1D530080A743 /* SDInvitationCodeButton.swift in Sources */,
+				D8E3A2132A48A24A00C33FB3 /* SDSettlementResultAlertContentView.swift in Sources */,
+				D8E3A1BF2A48A14300C33FB3 /* SDTCPClientService.swift in Sources */,
+				D8BBAC032A8D0F1E00FFF1A2 /* SDSimpleResultAlertViewController.swift in Sources */,
+				D8E3A1EB2A48A16C00C33FB3 /* SDTcpSendSaintMoveDirctionData.swift in Sources */,
+				D87A293D2A1F84E700DBC1B5 /* SDAppealDollPageData.swift in Sources */,
+				D8D3CDBA2A2A48A80080A743 /* SDBgImageButton.swift in Sources */,
+				4CC9892E2B18374E00CFC4B7 /* YDSpaceStarRoomItemCell.m in Sources */,
+				D87A291B2A1F805900DBC1B5 /* ViewModelType.swift in Sources */,
+				D8D47E962A38A25D00CE4E8D /* SPTabView.swift in Sources */,
+				D8D3CDB22A2A2D640080A743 /* SDLoginCoordinator.swift in Sources */,
+				D87A29282A1F805900DBC1B5 /* SDCollectionViewModel.swift in Sources */,
+				D87A29072A1F805900DBC1B5 /* BannerBaseDataInfo.swift in Sources */,
+				D87A28FB2A1F805900DBC1B5 /* SDVerticalImageAndTitleButton.swift in Sources */,
+				D8D477C52A3216D400F81A05 /* SDNormalBgView.swift in Sources */,
+				4CA5DA422B060DC400F33916 /* HZPushOpView.m in Sources */,
+				D87A28FC2A1F805900DBC1B5 /* SDPullFlvView.swift in Sources */,
+				D80DAC4E2A3EB131001BC817 /* SDSignViewController.swift in Sources */,
+				D87A293B2A1F84E700DBC1B5 /* SDDollLogPageData.swift in Sources */,
+				D87A290D2A1F805900DBC1B5 /* SDBaseRouter.swift in Sources */,
+				D87A29042A1F805900DBC1B5 /* ZYPlayerTool.swift in Sources */,
+				D8E3A1E02A48A16C00C33FB3 /* SDTcpGameUrlResponse.swift in Sources */,
+				D87A29152A1F805900DBC1B5 /* SDCustomService.swift in Sources */,
+				D8193F542A44C94300FB0DCD /* SDAlertShopViewController.swift in Sources */,
+				D8043AF62A21D16600B9D231 /* SDShopViewModel.swift in Sources */,
+				D8E3A1F02A48A16C00C33FB3 /* SDTcpSendSaintLeaveData.swift in Sources */,
+				D87A291E2A1F805900DBC1B5 /* String+Ext.swift in Sources */,
+				D8E3A1DB2A48A16C00C33FB3 /* SDBaseTcpData.swift in Sources */,
+				D8E3A1EE2A48A16C00C33FB3 /* SDTcpTextMessageResponse.swift in Sources */,
+				D87A29272A1F805900DBC1B5 /* SDCollectionItemType.swift in Sources */,
+				D87A29252A1F805900DBC1B5 /* SDTabbarViewDelegate.swift in Sources */,
+				D8F37C2C2A374D6F0044F461 /* SPGameDetailCell.swift in Sources */,
+				D8043AF42A21D14F00B9D231 /* SDShopViewController.swift in Sources */,
+				4C8474A32A57F124008E9767 /* SDRechargeAlertMoneyUnitView.swift in Sources */,
+				D8D47E9F2A38B2AB00CE4E8D /* SPRecordItemViewModel.swift in Sources */,
+				D87A29122A1F805900DBC1B5 /* SDRechargeAPIRouter.swift in Sources */,
+				D8043AF22A21D13900B9D231 /* SPShopCoordinator.swift in Sources */,
+				D8E3A1DD2A48A16C00C33FB3 /* SDTcpOtherGrabResponse.swift in Sources */,
+				D87A29142A1F805900DBC1B5 /* SDRechargeService.swift in Sources */,
+				D87A291A2A1F805900DBC1B5 /* ViewModelAttaching.swift in Sources */,
+				D87A28FA2A1F805900DBC1B5 /* SDImageButton.swift in Sources */,
+				D8BC96A82A69502000C0F4E1 /* SDGameInFuncListView.swift in Sources */,
+				D8276CA22A93BD050057B591 /* SDGameTagView.swift in Sources */,
+				D8193F3B2A444A4C00FB0DCD /* SDInputInviteCodeViewController.swift in Sources */,
+				D8E3A1ED2A48A16C00C33FB3 /* SDTcpSendSaintCoinData.swift in Sources */,
+				D8E3A2202A48A24A00C33FB3 /* SDSettlementSeatPlayerView.swift in Sources */,
+				D80DAC5C2A3F33B3001BC817 /* SDGameRoomItemViewModel.swift in Sources */,
+				D8193F372A43EA1F00FB0DCD /* SDInvitedCodeViewController.swift in Sources */,
+				D8D365522A3A05B300E7AC34 /* SPRechargeItemForCardCollectionViewCell.swift in Sources */,
+				D8F37C382A3773EF0044F461 /* SPGameApealLogViewModel.swift in Sources */,
+				D87A29182A1F805900DBC1B5 /* SDApplePayClient.swift in Sources */,
+				D8E3A21B2A48A24A00C33FB3 /* SDBaseGameViewController.swift in Sources */,
+				D8D47E9D2A38AEBA00CE4E8D /* SPLineTabItemView.swift in Sources */,
+				D80DAC362A3D6079001BC817 /* SPExchangeGoldWithPointItemCollectionViewCell.swift in Sources */,
+				D8EB4AE72A69886E00C7637E /* SDExchangeInGameAlertViewController.swift in Sources */,
+				4CC9889C2B157D8600CFC4B7 /* YDPushRechargeModel.m in Sources */,
+				D87A29132A1F805900DBC1B5 /* SDUserManager.swift in Sources */,
+				D8CFCC462A2F8D00009B6579 /* SDGameLogViewModel.swift in Sources */,
+				D80DAC302A3D5072001BC817 /* SPExchangeGoldWithDiamondView.swift in Sources */,
+				4CA5DA362B05B72400F33916 /* HZPushGameController.m in Sources */,
+				D8D2DB242A28F1D200A6947C /* SDBannerDataModel.swift in Sources */,
+				4CC989522B19B8BF00CFC4B7 /* YDSpaceWorkItemCell.m in Sources */,
+				4CC988BE2B16DDF600CFC4B7 /* YDScreenController.swift in Sources */,
+				D80369B72A30AB4400163281 /* SPSettingCoordinator.swift in Sources */,
+				D80DAC452A3E1462001BC817 /* SDRankSortView.swift in Sources */,
+				D8D949562A278A9F00924C2A /* SPLevelProcessBgView.swift in Sources */,
+				D8F37C3C2A3777D20044F461 /* SDGameComplaintTableViewCell.swift in Sources */,
+				D87A29232A1F805900DBC1B5 /* ErrorTracker.swift in Sources */,
+				D8F37C322A3752840044F461 /* SPGameSettlementRecordTableViewCell.swift in Sources */,
+				4CC988CB2B172F6600CFC4B7 /* YDPushTimeOutView.m in Sources */,
+				D85848CD2A40979400644FE1 /* SDGameRoomStatusView.swift in Sources */,
+				4CC989552B19DBB100CFC4B7 /* YDSpaceRoomListModel.m in Sources */,
+				D80DAC322A3D5E3D001BC817 /* SPExchangeGoldWithPointData.swift in Sources */,
+				4CA5DA392B05BDB000F33916 /* HZPushUserProfileView.m in Sources */,
+				4CC9893A2B185FD700CFC4B7 /* YDSpaceUserWalletView.m in Sources */,
+				4CC9888C2B143FF700CFC4B7 /* YDPushRechargeAlertView.m in Sources */,
+				D800EC452A33F22000DBD97D /* SPGameLogDetailViewModel.swift in Sources */,
+				D87A28F82A1F805900DBC1B5 /* SDEmptyView.swift in Sources */,
+				D8E3A1EA2A48A16C00C33FB3 /* SDTcpPushCoinResponse.swift in Sources */,
+				D89B1B612A28B3AF003C62FB /* UIFont+Zhenyan.swift in Sources */,
+				4C8474A12A5698EF008E9767 /* SDRankUserInfoView.swift in Sources */,
+				D8D47E922A38A07900CE4E8D /* SRrecordViewController.swift in Sources */,
+				D87A29392A1F84E700DBC1B5 /* SDChargeTypeInfoData.swift in Sources */,
+				D8D3CDC02A2AC6C90080A743 /* SDLoginByPhoneViewModel.swift in Sources */,
+				4CC9889F2B157D9500CFC4B7 /* YDPushExchangeModel.m in Sources */,
+				4C8A95E92B06F9E30014A339 /* HZPushGameOpView.m in Sources */,
+				D87A29112A1F805900DBC1B5 /* HomeAPIRouter.swift in Sources */,
+				D8E3A1BD2A48A0F100C33FB3 /* SDTCPClient.swift in Sources */,
+				4C8A95E62B06F69A0014A339 /* UIResponder+Router.m in Sources */,
+				4CA5DA3F2B05C75B00F33916 /* HZUserWalletView.m in Sources */,
+				D80DAC3E2A3DF512001BC817 /* SDMemberMoneyLogData.swift in Sources */,
+				D8F37C2E2A3751060044F461 /* SDGameDetailHeaderView.swift in Sources */,
+				D80369B32A30A33800163281 /* SPSettingViewController.swift in Sources */,
+				D87A29102A1F805900DBC1B5 /* UserAPIRouter.swift in Sources */,
+				D87A29382A1F84E700DBC1B5 /* SDUser.swift in Sources */,
+				D8E3A2212A48A24A00C33FB3 /* SDSeatGameActionView.swift in Sources */,
+				D8D477C92A3219CD00F81A05 /* SDGameLogItemModel.swift in Sources */,
+				D87A293C2A1F84E700DBC1B5 /* SDGameLiveRoomData.swift in Sources */,
+				4CC9893E2B18D97E00CFC4B7 /* JsonUtil.swift in Sources */,
+				D8D7F86C2A39E4AA00272FC7 /* SPRechargeItemViewModel.swift in Sources */,
+				4CC988B02B15D76000CFC4B7 /* YDRechaegeFailView.m in Sources */,
+				D87A290C2A1F805900DBC1B5 /* SDHomeService.swift in Sources */,
+				D80DAC292A3D347F001BC817 /* SPPayWebViewController.swift in Sources */,
+				D8E3A1E92A48A16C00C33FB3 /* SDTcpSendSaintData.swift in Sources */,
+				D8F37C3A2A3777C80044F461 /* SDGameComplaintViewModel.swift in Sources */,
+				4C8A95F72B07622B0014A339 /* YDPushPullStreamView.m in Sources */,
+				D8D949542A27858C00924C2A /* SPLevelProcessView.swift in Sources */,
+				D87A28F72A1F805900DBC1B5 /* SDRedCloseView.swift in Sources */,
+				D80DAC342A3D605C001BC817 /* SPExchangeGoldWithPointItemViewModel.swift in Sources */,
+				4CC988AA2B15C98C00CFC4B7 /* YDExchangeSucView.m in Sources */,
+				D87A29202A1F805900DBC1B5 /* AppDefine.swift in Sources */,
+				D80DAC522A3EEFFB001BC817 /* SDSignUnitView.swift in Sources */,
+				D85848CB2A40838100644FE1 /* SDHomeGroupItem.swift in Sources */,
+				D8D47EA12A38B2BA00CE4E8D /* SPRecordItemTableViewCell.swift in Sources */,
+				D8193F4C2A44ADF600FB0DCD /* SDGameGuidViewModel.swift in Sources */,
+				D8193F502A44B97B00FB0DCD /* MediaManager.swift in Sources */,
+				D8CF5CBA2A1FB14A00BF487A /* SDRankViewController.swift in Sources */,
+				D8E3A21C2A48A24A00C33FB3 /* SDFoldingAvatarView.swift in Sources */,
+				4CC988A42B159A8C00CFC4B7 /* YDPushWalletView.m in Sources */,
+				D8E3A2182A48A24A00C33FB3 /* SDRechargeUnitCollectionData.swift in Sources */,
+				D8F158E52A1E67580054FE46 /* SceneDelegate.swift in Sources */,
+				D87A29532A1F905600DBC1B5 /* SDHomeViewModel.swift in Sources */,
+				4CA5DA452B06102E00F33916 /* HZSimpleBtnView.m in Sources */,
+				D8E3A2222A48A24A00C33FB3 /* SDAwaitSeatBtView.swift in Sources */,
+				D8E3A2292A48A32000C33FB3 /* SDRTCView.swift in Sources */,
+				D8D477CC2A322E5000F81A05 /* SDNormalNavgationBarView.swift in Sources */,
+				D80DAC3A2A3DE5F7001BC817 /* SDExchangeGoldWithPointViewController.swift in Sources */,
+				D87A29082A1F805900DBC1B5 /* BannerViewCell.swift in Sources */,
+				4CC988A72B15BFB100CFC4B7 /* YDExchangeAlertView.m in Sources */,
+				D8E3A1E42A48A16C00C33FB3 /* SDTcpSendTcpData.swift in Sources */,
+				4C8A95F02B0735F30014A339 /* HZPushPullVideoView.m in Sources */,
+				4CC988B72B15E16A00CFC4B7 /* YDPushOffLineView.m in Sources */,
+				D87A29292A1F805900DBC1B5 /* SDTabbarCoordinator.swift in Sources */,
+				D8E3A1E72A48A16C00C33FB3 /* SDTcpGrapResponse.swift in Sources */,
+				D80DAC502A3EB512001BC817 /* SDSignListData.swift in Sources */,
+				D80DAC422A3E0CB1001BC817 /* SDSummaryRankPageData.swift in Sources */,
+				D8DBA36A2A27A2E200BC1C80 /* SDBankUnitView.swift in Sources */,
+				D8E3A1E22A48A16C00C33FB3 /* SDTcpAppointmentChangeResponse.swift in Sources */,
+				4CC989342B185A6700CFC4B7 /* YDSpaceUserInfoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8F158E82A1E67580054FE46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F158E92A1E67580054FE46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8F158ED2A1E67590054FE46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F158EE2A1E67590054FE46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F158F12A1E67590054FE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8F158F22A1E67590054FE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F158F42A1E67590054FE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121D5E9D5C9B243C7622DBC1 /* Pods-game_wwj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = game_wwj/game_wwj.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9863773ZTV;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = game_wwj/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "太空街机";
+				INFOPLIST_KEY_NSCameraUsageDescription = "太空街机者需要申请照相权限去做您在应用中的头像";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "太空街机需要申请照相权限去做您在应用中的头像";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "太空街机需要申请相册权限去做您在应用中的头像";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushcoin.wzgl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/game_wwj/gamewwj-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D8F158F52A1E67590054FE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1781ED6C4540781AEA5F9D /* Pods-game_wwj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = game_wwj/game_wwj.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9863773ZTV;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = game_wwj/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "太空街机";
+				INFOPLIST_KEY_NSCameraUsageDescription = "太空街机者需要申请照相权限去做您在应用中的头像";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "太空街机需要申请照相权限去做您在应用中的头像";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "太空街机需要申请相册权限去做您在应用中的头像";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushcoin.wzgl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/game_wwj/gamewwj-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F158DA2A1E67580054FE46 /* Build configuration list for PBXProject "game_wwj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F158F12A1E67590054FE46 /* Debug */,
+				D8F158F22A1E67590054FE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F158F32A1E67590054FE46 /* Build configuration list for PBXNativeTarget "game_wwj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F158F42A1E67590054FE46 /* Debug */,
+				D8F158F52A1E67590054FE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F158D72A1E67580054FE46 /* Project object */;
+}
