@@ -9,24 +9,25 @@
 #import "ZCNetwork.h"
 #import "ZCSaveUserData.h"
 #import "YDAESDataTool.h"
+#import "YDAlertView.h"
 
-#define kEnterMachineRoomURL @"enter/room"
-#define kGetUserInfoURL @"user/info/v2"
-#define kGetRechargeListInfoURL @"charge/list/channel/v2"
-#define kGetPointsExchangeListURL @"pm/option"
-#define kExchangePointsOperateURL @"pm/exchange/coin"//
-#define kCreateChargeOrderOpURL @"charge/ios/create/order"//
-#define kPayChargeOrderByAppleURL @"charge/ios/pay/v3"//
-#define kGetRankListPointInfoURL @"summary/rank/point/v2"
-#define kGetRankListDiamondInfoURL @"summary/rank/diamond/v2"
-#define kGetRoomListInfoURL @"room/group/list/V2"//room/group/list/V3?channelId=4          room/group/list/V2
-#define kGetSpaceWorkListInfoURL @"task/space/list"
-#define kReceiveSpaceWorkOpURL @"task/space/receive"//
-#define kReceiveAllSpaceWorkOpURL @"task/oneClick/collection"//
-#define kGetSpaceMetalListInfoURL @"space/medal/list"//
-#define kReceiveSpaceMetalOpInfoURL @"space/medal/receive"//
-#define kSendUserSignOpInfoURL @"sign/v2"//
-#define kDeleteAccountOpInfoURL @"member/cancel/v2"//
+#define kEnterMachineRoomURL @"qjkK/PCl/EvYTPXrN+ptjA=="
+#define kGetUserInfoURL @"Sw0QYosX4vG7dHcDQnI7Wg=="
+#define kGetRechargeListInfoURL @"TuBvs5DJJnsFN+xTYynT0Iz8lxgDkZ1blso/l2YK2BI="
+#define kGetPointsExchangeListURL @"9H8KLnSLz/ocbNwd8iO8hg=="
+#define kExchangePointsOperateURL @"Cst1vvUnTpbE9A8rpnHP7fjDclCjKJAA/AwdT4g41CM="//
+#define kCreateChargeOrderOpURL @"eMedQduoldxdiYgVcqHud4FapkrTJekfzIuSxPaMbL0="//
+#define kPayChargeOrderByAppleURL @"qLbZIKfi/mGg/zvZDOvdD69b/zhDotbt2bgOPuKZh98="//
+#define kGetRankListPointInfoURL @"dBlxPutUJAnxnQuYFcjrCC/RSXusGb2rRqnlb01twK0="
+#define kGetRankListDiamondInfoURL @"h9Nvv8J/EBQbETtLdBBCt/3QdRImTxU7yYEUZoWTJXs="
+#define kGetRoomListInfoURL @"UcPh211GnqyJY/KUEeYpSVnK5+4IYs7CcuYIJv9bFkY="
+#define kGetSpaceWorkListInfoURL @"ID/7oQozQ/kjlYD+BuCyfQ=="
+#define kReceiveSpaceWorkOpURL @"qF/lbD+CMIFC+RWUFbKYTnpRBjH/taosmT0sK3h3Tr4="//
+#define kReceiveAllSpaceWorkOpURL @"c65IElUYzc0Ba/mv8zixdARdoCuFgGuAhNFpU22akgE="//
+#define kGetSpaceMetalListInfoURL @"kcMA3xnjPHBD/z8oa5mNFHySwAbZiV67aXBjCBJ/cj0="//
+#define kReceiveSpaceMetalOpInfoURL @"hCsO8NjAz2HY+oy214LkaI7xi68sQo4xyIagGtT5Z5k="//
+#define kSendUserSignOpInfoURL @"TtkFkuDBqiwZzabiQ3ugDQ=="//
+#define kDeleteAccountOpInfoURL @"3fa82zIa74bQCXnxWIvu+LzivAoizE23ioohbskPP6c="//
 
 @implementation ZCUserGameService
 
@@ -88,6 +89,13 @@
     [[ZCNetwork shareInstance] request_postWithApi:kCreateChargeOrderOpURL params:dic isNeedSVP:YES success:^(id  _Nullable responseObj) {
         completerHandler(responseObj);
     } failed:^(id  _Nullable data) {
+        if ([data isKindOfClass:[NSDictionary class]]) {
+            if ([data[@"errCode"] integerValue] == 500) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [[YDAlertView sharedInstance] showTextMsg:data[@"errMsg"] dispaly:2.0];
+                });
+            }
+        }
         completerHandler(data);
     }];
 }

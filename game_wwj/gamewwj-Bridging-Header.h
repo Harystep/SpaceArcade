@@ -15,5 +15,6 @@
 #import "YDSpaceCenterController.h"
 #import "ZCUserGameService.h"
 #import "YDAESDataTool.h"
+#import <MBProgressHUD.h>
 
 #endif /* gamewwj_Bridging_Header_h */

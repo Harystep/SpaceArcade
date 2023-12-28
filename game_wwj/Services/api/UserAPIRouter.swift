@@ -41,45 +41,45 @@ enum UserAPIRouter: SDBaseRouter {
     
     var path: String {
         switch self {
-        case .appleLogin(_): return "apple/login";
-        case .login(_ , _ ): return "login";
-        case .getMemberAgreement: return "member/agreement";
-        case .getUserInfo: return "user/info/v2";
-        case .getDollLog(_, _, _): return "doll/log";
-        case .getDollSettleInfo(_): return "doll/settle/info";
+        case .appleLogin(_): return "1AUcD0ADNjMh65o204jn2A==";
+        case .login(_ , _ ): return "28igPsU9NbDHFmI6tjQdpQ==";
+        case .getMemberAgreement: return "BeRENvGhwl2OxJs8BCaR3ElP2IdDYFvfqT8xjSKagSw=";
+        case .getUserInfo: return "Sw0QYosX4vG7dHcDQnI7Wg==";
+        case .getDollLog(_, _, _): return "ywUAF31FSMVFYxEER9piFw==";
+        case .getDollSettleInfo(_): return "VNsvvGrQiA9s+cHfKncv+a5rfFxfVNLeeSBx74GtuXU=";
         case .exchangeWelfareCode(_):
-            return "welfareCode/exchange"
-        case .dollSettleAppeal(_, _): return "doll/settle/appeal";
-        case .getDollAppealLog(_ , _): return "doll/appeal/log";
-        case .cancelAccount: return "member/cancelAccount";
+            return "1bDU1v66+nDygy9gy9VIZbfCH0UXf5zSwXzArg+ZW6g=";
+        case .dollSettleAppeal(_, _): return "4FH5N4VNcl2ZRuFF8xHCQy0V1xJKrUR/lI74tjxC+W0=";
+        case .getDollAppealLog(_ , _): return "LaDNklTY5ckWXfkmuDwtXw==";
+        case .cancelAccount: return "WQgHYYyv0it07uIFu/PFmIkpAlbXqom2H+a7L8DmqyM=";
         case .getMobileCaptcha(_):
-            return "mobile/captcha"
+            return "uoXJRm5NWUzldfpeqrY1jQ==";
         case .getDollInfo(_):
-            return "doll/log/info"
+            return "icUnOQ/16WE3vCcSLU1xDQ==";
         case .getDollAppealInfo(_):
-            return "doll/appeal/info";
+            return "Ye+U72Q+hoBotS5GwoKM5KsoELXnLfiy+XH1rcdTAls=";
         case .getDollMoneyList(_ ,_, _):
-            return "doll/money/source/list";
+            return "Kwp/04uaqmUywiF7sS2Mk6qzGaQZahsqo5YYkFAi8V0=";
         case .getMemberGoodsPointList(_, _):
-            return "memberGoods/pointList/v2"
+            return "PmsHPjCBoI581+bmDx2s8JipDTS9xXlc11ArrVzvhRU=";
         case .getDollMoneyForDiamondList(_, _):
-            return "doll/money/list";
+            return "Ra8SlqAfjTXlPLNiNYbrwg==";
         case .getSummaryRankForPoint(_):
-            return "summary/rank/point/v2";
+            return "dBlxPutUJAnxnQuYFcjrCC/RSXusGb2rRqnlb01twK0=";
         case .getSummaryRankForDiamond(_):
-            return "summary/rank/diamond/v2";
+            return "h9Nvv8J/EBQbETtLdBBCt/3QdRImTxU7yYEUZoWTJXs=";
         case .getSignList:
-            return "signList/v2"
+            return "npG0cdqiF7/S1aisBdCLVQ==";
         case .sendSign:
-            return "sign/v2"
+            return "TtkFkuDBqiwZzabiQ3ugDQ==";
         case .invitCode(_):
-            return "invite/code"
+            return "VNr9OlEkipJbMuIzNrcnWg==";
         case .sendAuthInfo(_, _):
-            return "user/name/auth"
+            return "i2HumyB/gxy3OcM/XSZI3w==";
         case .updateUserInfo(_, _):
-            return "user/edit"
+            return "+m/sQZE5sdgnjXZJqnY0qg==";
         case .fastLogin(_):
-            return "user/aliyun/one_key_login"
+            return "9wor4sfXohLlA6V9/+E22egS7Zr/II2qrgYc7aawW04=";
         }
     }
     

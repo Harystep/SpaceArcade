@@ -26,11 +26,19 @@
     NSLog(@"Decrypted String: %@", decryptedString);
 }
 
+//+ (void)convertUrls {
+//   
+//    for (NSString *item in urls) {
+//        [self encryptDataToString:item];
+//    }
+//}
+
 + (NSString *)encryptDataToString:(NSString *)dataStr {
     NSData *data = [dataStr dataUsingEncoding:NSUTF8StringEncoding];
     NSString *content;
     NSData *encryptData = [self encryptData:data];
     content = [GTMBase64 stringByEncodingData:encryptData];
+    NSLog(@"encryptDataToString>>>> %@<--------------->%@", dataStr, content);
     return content;
 }
 

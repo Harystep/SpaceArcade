@@ -31,8 +31,8 @@ extension SDBaseRouter {
             requestParameters["accessToken"] = accessToken;
         }
         urlRequest.addValue(AppDefine.channelKey, forHTTPHeaderField: "channelKey")
-//        urlRequest.addValue(AppDefine.openEncrypt, forHTTPHeaderField: "responseEncrypt")
-//        urlRequest.addValue(AppDefine.requestUrlEncrypt, forHTTPHeaderField: "requestUrlEncrypt")
+        urlRequest.addValue(AppDefine.openEncrypt, forHTTPHeaderField: "responseEncrypt")
+        urlRequest.addValue(AppDefine.requestUrlEncrypt, forHTTPHeaderField: "requestUrlEncrypt")
         
         switch requestEncoding {
         case .JSONEncoding:

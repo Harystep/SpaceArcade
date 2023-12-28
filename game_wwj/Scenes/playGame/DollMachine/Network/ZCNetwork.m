@@ -15,7 +15,7 @@
 
 #define MAINWINDOW  [UIApplication sharedApplication].keyWindow
 
-#define kRequestUrlEncryptKey @"off"
+#define kRequestUrlEncryptKey @"on"
 
 @interface ZCNetwork ()
 
@@ -60,17 +60,21 @@ static ZCNetwork *instanceManager = nil;
  *  @brief  data 转 字典
  */
 - (NSDictionary *)dataReserveForDictionaryWithData:(id)data {
-    if ([data isKindOfClass:[NSData class]]) {
-        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data
-                                                             options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves
-                                                               error:nil];
-        return dict;
-    } else if ([data isKindOfClass:[NSDictionary class]]) {
-        return data;
+
+    if ([kRequestUrlEncryptKey isEqualToString:@"on"]) {
+        return [YDAESDataTool decryptResponseDictWithData:data];
     } else {
-        return nil;
+        if ([data isKindOfClass:[NSData class]]) {
+            NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data
+                                                                 options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves
+                                                                   error:nil];
+            return dict;
+        } else if ([data isKindOfClass:[NSDictionary class]]) {
+            return data;
+        } else {
+            return nil;
+        }
     }
-//    return [YDAESDataTool decryptResponseDictWithData:data];
 }
 
 - (NSDictionary *)dataToDict:(NSData *)data {
@@ -141,7 +145,7 @@ static ZCNetwork *instanceManager = nil;
             [self printRequestData:task reoponseObject:responseObject];
             [self handleResultWithModelClass:isNeed success:success failed:failed reponseObj:responseObject];
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-            
+            NSLog(@"error--->%@", error);            
         }];
     
 }
@@ -149,11 +153,7 @@ static ZCNetwork *instanceManager = nil;
 - (NSString *)handleUrl:(NSString *)api {
     NSString *url;
     if (![api hasPrefix:@"http"]) {
-        if ([kRequestUrlEncryptKey isEqualToString:@"on"]) {
-            url = [[ZCNetwork shareInstance].host stringByAppendingString:[YDAESDataTool encryptDataToString:api]];
-        } else {
-            url = [[ZCNetwork shareInstance].host stringByAppendingString:api];
-        }
+        url = [[ZCNetwork shareInstance].host stringByAppendingString:api];
     } else {
         url = api;
     }
@@ -216,7 +216,7 @@ static ZCNetwork *instanceManager = nil;
             }
         } else {
             if([dict[@"errCode"] integerValue] == 401) {
-//                [self jumpLogoUI];
+                [self jumpLogoUI];
             } else {
                 failed(dict);
             }
@@ -247,8 +247,8 @@ static ZCNetwork *instanceManager = nil;
         [dic setValue:[ZCSaveUserData getUserToken] forKey:@"accessToken"];
     }
     [dic setValue:@"tuibiwangzhe" forKey:@"channelKey"];
-//    [dic setValue:@"on" forKey:@"responseEncrypt"];
-//    [dic setValue:kRequestUrlEncryptKey forKey:@"requestUrlEncrypt"];
+    [dic setValue:@"on" forKey:@"responseEncrypt"];
+    [dic setValue:kRequestUrlEncryptKey forKey:@"requestUrlEncrypt"];
     return [dic copy];
 }
 
@@ -267,7 +267,7 @@ static ZCNetwork *instanceManager = nil;
         [_sessionManager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
         
         _sessionManager.requestSerializer  = [AFJSONRequestSerializer serializer];
-        _sessionManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+        _sessionManager.responseSerializer = [AFJSONResponseSerializer serializer];
         
     }
     return _sessionManager;

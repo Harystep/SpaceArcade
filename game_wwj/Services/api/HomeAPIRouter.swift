@@ -23,14 +23,14 @@ enum HomeAPIRouter: SDBaseRouter {
     
     var path: String {
         switch self {
-        case .getHomeBanner(_): return "banner/v1";
-        case .getHomeRoomWithType(_, _): return "room/list";///room/groupRoom/list   //room/list
-        case .getHomeRoomWithTag(_): return "home/tag";
-        case .enterMatchin(_ ): return "enter/room";
-        case .getHomeGroup: return "room/group/list";
+        case .getHomeBanner(_): return "hkjtdmatiQkf9qhP4EK6yg==";
+        case .getHomeRoomWithType(_, _): return "VZIz+fhMe5menWwAmRyaXA==";
+        case .getHomeRoomWithTag(_): return "tXQkTeh42o2EzLb3Jq8dOg==";
+        case .enterMatchin(_ ): return "qjkK/PCl/EvYTPXrN+ptjA==";
+        case .getHomeGroup: return "/B5zkxH0h0VVjTmfDA/Rjg==";
         case .getGameStrategy:
-            return "game/intro/list";
-        case .getGameRule(_): return "game/rule"
+            return "CY7sVXYRF1xi33COG7Jyag==";
+        case .getGameRule(_): return "vytztbhJqbJuV/u4t5CJjw==";
         }
     }
     var method: HTTPMethod {

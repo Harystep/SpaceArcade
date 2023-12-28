@@ -164,6 +164,7 @@ class SDRechargeInGameAlertViewController: UIViewController, ViewModelAttaching 
         }).disposed(by: disposeBag);
 
         viewModel.chargePayResult.asObservable().subscribe(onNext: { response in
+            MBProgressHUD.hide(for: self.view, animated: true)
             if response {
                 SPIndicator.present(title: "支付成功", haptic: .success);
                 self.fetchUserInfoTrigger.onNext(());
@@ -295,7 +296,17 @@ extension SDRechargeInGameAlertViewController: UICollectionViewDataSource, UICol
         let model = self.chargeList[indexPath.section].list[indexPath.row];
         if let chargeModel = model as? SPRechargeItemViewModel {
             let payMethod = chargeModel.paySupportList.first!;
+            MBProgressHUD.showAdded(to: self.view, animated: true)
+            self.hideAnimalAddView()
             self.didSelectedChargeItemTrigger.onNext((chargeModel, payMethod));
+        }
+    }
+    func hideAnimalAddView () {
+        let dispatchQueue = DispatchQueue(label: "com.shop.queue")
+        dispatchQueue.asyncAfter(deadline: DispatchTime.now()+10.0) {
+            DispatchQueue.main.async {
+                MBProgressHUD.hide(for: self.view, animated: true)
+            }
         }
     }
 }

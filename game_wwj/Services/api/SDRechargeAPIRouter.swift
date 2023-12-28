@@ -23,18 +23,18 @@ enum SDRechargeAPIRouter: SDBaseRouter {
     var path: String {
         switch self {
         case .chargeList(_):
-            return "/charge/list/channel/v2";
-        case .payChargeItemByApple(_ , _ ): return "/charge/ios/pay/v3";
+            return "TuBvs5DJJnsFN+xTYynT0Iz8lxgDkZ1blso/l2YK2BI=";
+        case .payChargeItemByApple(_ , _ ): return "qLbZIKfi/mGg/zvZDOvdD69b/zhDotbt2bgOPuKZh98=";
         case .payChargeItemByAli(_):
-            return "/charge/ali/buy/v2"
+            return "mhc3ZrK2fNJeVSnafDaDgPj0mN9BQ5CGpgEh36a+jho=";
         case .getExchangeGlodByPointList:
-            return "/pm/option"
+            return "9H8KLnSLz/ocbNwd8iO8hg==";
         case .exchangeMemberGold(_):
-            return "/member/exchange/gold"
+            return "ABB4piK3ndB33Sr8Aan8FP4Hobunqwr89dusnA5OEV4=";
         case .pmExchangePoint(_):
-            return "/pm/exchange/coin";
+            return "Cst1vvUnTpbE9A8rpnHP7fjDclCjKJAA/AwdT4g41CM=";
         case .createAppleOrder(_):
-            return "charge/ios/create/order"
+            return "eMedQduoldxdiYgVcqHud4FapkrTJekfzIuSxPaMbL0=";
         }
     }
     

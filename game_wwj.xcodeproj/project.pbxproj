@@ -300,7 +300,12 @@
 		D8F37C3C2A3777D20044F461 /* SDGameComplaintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C3B2A3777D20044F461 /* SDGameComplaintTableViewCell.swift */; };
 		D8F37C3E2A377CE60044F461 /* SPGameApealDeatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C3D2A377CE60044F461 /* SPGameApealDeatilViewController.swift */; };
 		D8F37C402A377CF60044F461 /* SPGameApealDeatilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37C3F2A377CF60044F461 /* SPGameApealDeatilViewModel.swift */; };
+		DC11545D2B3C29C600515FFC /* SYBBaseProcotolController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC11545B2B3C29C600515FFC /* SYBBaseProcotolController.m */; };
 		DC24648B2B318915006032F2 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2464882B318914006032F2 /* GTMBase64.m */; };
+		DC2464912B33D7A4006032F2 /* YTXOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC24648E2B33D7A4006032F2 /* YTXOperators.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DC2464922B33D7A4006032F2 /* YTXMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC24648F2B33D7A4006032F2 /* YTXMonitor.framework */; };
+		DC2464932B33D7A4006032F2 /* ATAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2464902B33D7A4006032F2 /* ATAuthSDK.framework */; };
+		DC2464952B33DA84006032F2 /* ATAuthSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC2464942B33DA84006032F2 /* ATAuthSDK.bundle */; };
 		DC2F77BE2B2C2AF6004060A5 /* YDAESDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2F77BD2B2C2AF6004060A5 /* YDAESDataTool.m */; };
 		DC9D8DD72B2161CF00809048 /* YDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9D8DD52B2161CF00809048 /* YDAlertView.m */; };
 		DCB764302B258248007B5641 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7642F2B258248007B5641 /* MediaPlayer.framework */; };
@@ -654,9 +659,15 @@
 		D8F37C3B2A3777D20044F461 /* SDGameComplaintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGameComplaintTableViewCell.swift; sourceTree = "<group>"; };
 		D8F37C3D2A377CE60044F461 /* SPGameApealDeatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameApealDeatilViewController.swift; sourceTree = "<group>"; };
 		D8F37C3F2A377CF60044F461 /* SPGameApealDeatilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGameApealDeatilViewModel.swift; sourceTree = "<group>"; };
+		DC11545B2B3C29C600515FFC /* SYBBaseProcotolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBBaseProcotolController.m; sourceTree = "<group>"; };
+		DC11545C2B3C29C600515FFC /* SYBBaseProcotolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBBaseProcotolController.h; sourceTree = "<group>"; };
 		DC2464882B318914006032F2 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		DC2464892B318915006032F2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		DC24648A2B318915006032F2 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		DC24648E2B33D7A4006032F2 /* YTXOperators.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTXOperators.framework; sourceTree = "<group>"; };
+		DC24648F2B33D7A4006032F2 /* YTXMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTXMonitor.framework; sourceTree = "<group>"; };
+		DC2464902B33D7A4006032F2 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATAuthSDK.framework; sourceTree = "<group>"; };
+		DC2464942B33DA84006032F2 /* ATAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ATAuthSDK.bundle; sourceTree = "<group>"; };
 		DC2F77BC2B2C2AF6004060A5 /* YDAESDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAESDataTool.h; sourceTree = "<group>"; };
 		DC2F77BD2B2C2AF6004060A5 /* YDAESDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAESDataTool.m; sourceTree = "<group>"; };
 		DC9D8DD52B2161CF00809048 /* YDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAlertView.m; sourceTree = "<group>"; };
@@ -675,6 +686,9 @@
 			files = (
 				B6A1CB9B3E73F78D2DB67886 /* Pods_game_wwj.framework in Frameworks */,
 				DCB764302B258248007B5641 /* MediaPlayer.framework in Frameworks */,
+				DC2464912B33D7A4006032F2 /* YTXOperators.framework in Frameworks */,
+				DC2464922B33D7A4006032F2 /* YTXMonitor.framework in Frameworks */,
+				DC2464932B33D7A4006032F2 /* ATAuthSDK.framework in Frameworks */,
 				D88E1ACA2A49DFF500BC8A9F /* Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -861,6 +875,8 @@
 		4CC9891C2B18261100CFC4B7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DC11545C2B3C29C600515FFC /* SYBBaseProcotolController.h */,
+				DC11545B2B3C29C600515FFC /* SYBBaseProcotolController.m */,
 				4CC989192B18238B00CFC4B7 /* YDSpaceCenterController.h */,
 				4CC9891A2B18238B00CFC4B7 /* YDSpaceCenterController.m */,
 				4CC989442B197BD000CFC4B7 /* YDSpaceWorkController.h */,
@@ -1578,6 +1594,7 @@
 		D8F158E12A1E67580054FE46 /* game_wwj */ = {
 			isa = PBXGroup;
 			children = (
+				DC24648C2B33D77E006032F2 /* Library */,
 				D8D47E8D2A389D8700CE4E8D /* game_wwj.entitlements */,
 				D8D3CDB72A2A2E8A0080A743 /* Application */,
 				D89B1B5E2A28AE27003C62FB /* ZhenyanGB.ttf */,
@@ -1606,6 +1623,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DC24648C2B33D77E006032F2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DC24648D2B33D7A4006032F2 /* SDK */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DC24648D2B33D7A4006032F2 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DC2464942B33DA84006032F2 /* ATAuthSDK.bundle */,
+				DC24648E2B33D7A4006032F2 /* YTXOperators.framework */,
+				DC24648F2B33D7A4006032F2 /* YTXMonitor.framework */,
+				DC2464902B33D7A4006032F2 /* ATAuthSDK.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1618,7 +1654,6 @@
 				D8F158DC2A1E67580054FE46 /* Frameworks */,
 				D8F158DD2A1E67580054FE46 /* Resources */,
 				30DBE6606EB0CCF30BF570C9 /* [CP] Embed Pods Frameworks */,
-				2D01BFECAD4873131DDAC626 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1668,6 +1703,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F158EF2A1E67590054FE46 /* LaunchScreen.storyboard in Resources */,
+				DC2464952B33DA84006032F2 /* ATAuthSDK.bundle in Resources */,
 				D8F158EC2A1E67590054FE46 /* Assets.xcassets in Resources */,
 				D87A28FF2A1F805900DBC1B5 /* BannerView.bundle in Resources */,
 				D87A29052A1F805900DBC1B5 /* PlayerView.bundle in Resources */,
@@ -1680,23 +1716,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D01BFECAD4873131DDAC626 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-game_wwj/Pods-game_wwj-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		30DBE6606EB0CCF30BF570C9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2029,6 +2048,7 @@
 				D80DAC502A3EB512001BC817 /* SDSignListData.swift in Sources */,
 				D80DAC422A3E0CB1001BC817 /* SDSummaryRankPageData.swift in Sources */,
 				D8DBA36A2A27A2E200BC1C80 /* SDBankUnitView.swift in Sources */,
+				DC11545D2B3C29C600515FFC /* SYBBaseProcotolController.m in Sources */,
 				D8E3A1E22A48A16C00C33FB3 /* SDTcpAppointmentChangeResponse.swift in Sources */,
 				4CC989342B185A6700CFC4B7 /* YDSpaceUserInfoView.m in Sources */,
 			);
@@ -2182,7 +2202,10 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9863773ZTV;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/game_wwj/Library/SDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = game_wwj/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "太空街机";
@@ -2200,6 +2223,107 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CRRefresh\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CodableAlamofire\"",
+					"-framework",
+					"\"ColorCompatibility\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"Differentiator\"",
+					"-framework",
+					"\"EZPlayer\"",
+					"-framework",
+					"\"FSPagerView\"",
+					"-framework",
+					"\"FlexLayout\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"HandyJSON\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"KYDrawerController\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"PhotosUI\"",
+					"-framework",
+					"\"PinLayout\"",
+					"-framework",
+					"\"ProgressHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxDataSources\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"RxSwiftExt\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SPIndicator\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftDate\"",
+					"-framework",
+					"\"SwiftHEXColors\"",
+					"-framework",
+					"\"SwiftyBeaver\"",
+					"-framework",
+					"\"SwiftyFitsize\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WsRTC\"",
+					"-framework",
+					"\"ZLPhotoBrowser\"",
+					"-framework",
+					"\"pop\"",
+					"-ObjC",
+					"-framework",
+					"\"YTXOperators\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pushcoin.wzgl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2225,7 +2349,10 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9863773ZTV;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/game_wwj/Library/SDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = game_wwj/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "太空街机";
@@ -2243,6 +2370,107 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CRRefresh\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CodableAlamofire\"",
+					"-framework",
+					"\"ColorCompatibility\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"Differentiator\"",
+					"-framework",
+					"\"EZPlayer\"",
+					"-framework",
+					"\"FSPagerView\"",
+					"-framework",
+					"\"FlexLayout\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"HandyJSON\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"KYDrawerController\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"PhotosUI\"",
+					"-framework",
+					"\"PinLayout\"",
+					"-framework",
+					"\"ProgressHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxDataSources\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"RxSwiftExt\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SPIndicator\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftDate\"",
+					"-framework",
+					"\"SwiftHEXColors\"",
+					"-framework",
+					"\"SwiftyBeaver\"",
+					"-framework",
+					"\"SwiftyFitsize\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WsRTC\"",
+					"-framework",
+					"\"ZLPhotoBrowser\"",
+					"-framework",
+					"\"pop\"",
+					"-ObjC",
+					"-framework",
+					"\"YTXOperators\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pushcoin.wzgl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

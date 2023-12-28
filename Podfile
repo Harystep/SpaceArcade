@@ -40,7 +40,7 @@ def basic_pods
   
   
   pod 'WsRTC'
-  pod 'HHBAliAuthSDK'
+#  pod 'HHBAliAuthSDK'
   
   pod 'SnapKit',           '~> 5.6.0'
   
@@ -63,6 +63,7 @@ target 'game_wwj' do
   pod 'Masonry'
   pod 'MJExtension'
   pod 'HandyJSON'
+  pod 'MJRefresh'
   
 end
 

@@ -48,7 +48,7 @@ class APIClient: ClientType {
                     if let url = request?.url {
                         log.info("[HTTP] 请求 URL -> \(url)");
                     }
-                    if let responseData = data {
+                    if let responseData = data {                        
                         log.info("[HTTP] 请求结果 -> \(String.init(data: responseData, encoding: .utf8)!)");
                     }
                     return .success;
@@ -58,9 +58,14 @@ class APIClient: ClientType {
                     if response.data != nil {
                         let decoder = JSONDecoder()
                         do {
-//                            let person = try decoder.decode(M.self, from: YDAESDataTool.responseDecryptData(response.data!))
-                            let person = try decoder.decode(M.self, from: response.data!)
-                            single(.success(person))
+                            let openEncrypt:NSString = AppDefine.openEncrypt as NSString
+                            if openEncrypt.isEqual("on") {
+                                let person = try decoder.decode(M.self, from: YDAESDataTool.responseDecryptData(response.data!))
+                                single(.success(person))
+                            } else {
+                                let person = try decoder.decode(M.self, from: response.data!)
+                                single(.success(person))
+                            }
                         } catch let err {
                             log.debug("[HTTP] response Failure -> \(err)")
                             single(.error(err))
@@ -79,7 +84,6 @@ class APIClient: ClientType {
             }
         }
     }
-
 
     func decodePerson() {
         let jsonStr = "{\"age\":16,\"isGoodGrades\":1,\"name\":\"XiaoMing\",\"height\":160.5}"

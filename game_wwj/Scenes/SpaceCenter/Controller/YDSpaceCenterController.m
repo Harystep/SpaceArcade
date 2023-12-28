@@ -31,6 +31,9 @@
 #import "YDAlertView.h"
 #import "YDPushOffLineView.h"
 #import <MediaPlayer/MPVolumeView.h>
+#import "YDAESDataTool.h"
+#import <MJRefresh/MJRefresh.h>
+#import "SYBBaseProcotolController.h"
 
 @interface YDSpaceCenterController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -135,6 +138,12 @@
             [[NSNotificationCenter defaultCenter] postNotificationName:@"kSignKey" object:self.navigationController];;
         });
     }
+    __weak typeof(self) weakself = self;
+    self.collectionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        [weakself getRoomListInfo];
+    }];    
+    self.collectionView.mj_header.automaticallyChangeAlpha = YES;
+        
 }
 
 - (void)changeVoiceOp {
@@ -176,6 +185,7 @@
         NSArray *dataArr = [YDSpaceRoomListModel mj_objectArrayWithKeyValuesArray:responseObj[@"data"]];
         self.roomArr = dataArr;
         dispatch_async(dispatch_get_main_queue(), ^{
+            [self.collectionView.mj_header endRefreshing];
             [self.collectionView reloadData];
         });
     }];
@@ -311,19 +321,26 @@
         productId = [NSString stringWithFormat:@"option:%@", model.chargeId];
     }
     [self showLoadingToView:self.rechargeView];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self hideLoadingToView:self.rechargeView];
+    });
     [ZCUserGameService createChargeOrderOpURL:@{@"productId":productId} completeHandler:^(id  _Nonnull responseObj) {
         NSLog(@"%@", responseObj);
-        NSString *orderSn = responseObj[@"data"][@"orderSn"];
-        [self.applePayModule pay:model.iosOption withOrderId:model.chargeId orderSn:orderSn withBlock:^(NSString * _Nullable receipt) {
-            dispatch_async(dispatch_get_main_queue(), ^{
+        if ([responseObj isKindOfClass:[NSDictionary class]] && [responseObj[@"errCode"] integerValue] == 0) {
+            NSString *orderSn = responseObj[@"data"][@"orderSn"];
+            [self.applePayModule pay:model.iosOption withOrderId:model.chargeId orderSn:orderSn withBlock:^(NSString * _Nullable receipt) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self hideLoadingToView:self.rechargeView];
+                    [self showPayStatusView:YES];
+                    [self getUserBaseInfo];
+                });
+            } withFaileBlock:^(NSString * _Nonnull errMessage) {
                 [self hideLoadingToView:self.rechargeView];
-                [self showPayStatusView:YES];
-                [self getUserBaseInfo];
-            });
-        } withFaileBlock:^(NSString * _Nonnull errMessage) {
+                [self showPayStatusView:NO];
+            }];
+        } else {
             [self hideLoadingToView:self.rechargeView];
-            [self showPayStatusView:NO];
-        }];
+        }
     }];
 }
 
@@ -353,17 +370,13 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-//    ZCSaveUserData.saveUserToken(SDUserManager.token!)
-//    HZPushGameController *dollVc = [[HZPushGameController alloc] init];
-//    // 8cfca02127b4
-//    dollVc.machineSn = @"8cfca0212839";
-//    dollVc.token = ZCSaveUserData.getUserToken;
-//    dollVc.modalPresentationStyle = UIModalPresentationFullScreen;
-//    [self presentViewController:dollVc animated:YES completion:nil];    
-    YDSpaceRoomListModel *model = self.roomArr[indexPath.row];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"kSelectGameTypeKey" object:@{@"id":model.groupId}];
-    });
+//    YDSpaceRoomListModel *model = self.roomArr[indexPath.row];
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"kSelectGameTypeKey" object:@{@"id":model.groupId}];
+//    });
+    
+    SYBBaseProcotolController *procotol = [[SYBBaseProcotolController alloc] init];
+    [self.navigationController pushViewController:procotol animated:YES];
 }
 
 #pragma mark - lazy UI

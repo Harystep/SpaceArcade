@@ -152,15 +152,19 @@
     [self showLoadingToView:self.rechargeView];
     [ZCUserGameService createChargeOrderOpURL:@{@"productId":productId} completeHandler:^(id  _Nonnull responseObj) {
         NSLog(@"%@", responseObj);
-        NSString *orderSn = responseObj[@"data"][@"orderSn"];
-        [self.applePayModule pay:model.iosOption withOrderId:model.chargeId orderSn:orderSn withBlock:^(NSString * _Nullable receipt) {
+        if ([responseObj isKindOfClass:[NSDictionary class]] && [responseObj[@"errCode"] integerValue] == 0) {
+            NSString *orderSn = responseObj[@"data"][@"orderSn"];
+            [self.applePayModule pay:model.iosOption withOrderId:model.chargeId orderSn:orderSn withBlock:^(NSString * _Nullable receipt) {
+                [self hideLoadingToView:self.rechargeView];
+                [self showPayStatusView:YES];
+                [self getUserBaseInfo];
+            } withFaileBlock:^(NSString * _Nonnull errMessage) {
+                [self hideLoadingToView:self.rechargeView];
+                [self showPayStatusView:NO];
+            }];
+        } else {
             [self hideLoadingToView:self.rechargeView];
-            [self showPayStatusView:YES];
-            [self getUserBaseInfo];
-        } withFaileBlock:^(NSString * _Nonnull errMessage) {
-            [self hideLoadingToView:self.rechargeView];
-            [self showPayStatusView:NO];
-        }];
+        }
     }];
 }
 

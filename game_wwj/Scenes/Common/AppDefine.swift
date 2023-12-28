@@ -35,7 +35,7 @@ class AppDefine: NSObject {
     
     static let channelKey = "tuibiwangzhe";
     static let openEncrypt = "on";
-    static let requestUrlEncrypt = "off";
+    static let requestUrlEncrypt = "on";
     
     static let submissionDate = "2022-12-15";
     

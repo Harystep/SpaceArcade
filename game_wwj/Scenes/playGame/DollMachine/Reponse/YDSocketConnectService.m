@@ -318,19 +318,22 @@
     [self.dSocket writeData:[self convertSendData:content] withTimeout:- 1 tag:0];
 }
 
-- (NSData * )convertSendData:(NSString *)content
+- (NSData *)convertSendData:(NSString *)content
 {
     NSData *data3 = [content dataUsingEncoding:NSUTF8StringEncoding];
     NSMutableData *data = [NSMutableData new];
     NSData *data1 = [@"doll" dataUsingEncoding:NSUTF8StringEncoding];
     int i = 4 + 4 + (int)data3.length;
     NSData *data2 = [NSData dataWithBytes: &i length: sizeof(i)];
+    NSLog(@"send_data2_pre======>%@", data2);
     data2 = [self dataWithReverse:data2];
+    NSLog(@"send_data2_end======>%@", data2);
     [data appendData:data1];
     [data appendData:data2];
     [data appendData:data3];
     return [data copy];
 }
+
 - (NSData *)dataWithReverse:(NSData *)srcData
 {
     NSUInteger byteCount = srcData.length;

@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSDictionary *)decryptResponseDictWithData:(id)data;
 
+//+ (void)convertUrls;
+
 @end
 
 NS_ASSUME_NONNULL_END
